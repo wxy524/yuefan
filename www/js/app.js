@@ -5,7 +5,7 @@
 // the 2nd parameter is an array of 'requires'
 angular.module('yuefan', ['ionic', 'yuefan.services', 'yuefan.controllers'])
 
-.run(function($ionicPlatform, $state) {
+.run(function($ionicPlatform, $rootScope, $state) {
   $ionicPlatform.ready(function() {
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
@@ -16,13 +16,23 @@ angular.module('yuefan', ['ionic', 'yuefan.services', 'yuefan.controllers'])
       StatusBar.styleDefault();
     }
     Parse.initialize("kWL2ilUOoFbTj7iC3MKJbonKkX9tMQPFouOKjB2C", "bb8LAEOzOs0ASZCQESNABIBjzjPxdOxsL7DG41mR");
-    $state.go('fanjus');
+    $rootScope.sessionUser = Parse.User.current();
+    if($rootScope.sessionUser){
+      $state.go('fanjus');
+    } else {
+      $state.go('login');
+    }
   });
 })
 .config(function($stateProvider){
-  $stateProvider.state('fanjus',{
-    url:'/fanjus',
-    controller:'FanjuCtrl',
-    templateUrl:'views/fanjus.html'
+  $stateProvider.state('fanjus', {
+    url: '/fanjus',
+    controller: 'FanjuCtrl',
+    templateUrl: 'views/fanjus.html'
+  })
+  .state('login', {
+    url: '/login',
+    controller: 'LoginCtrl',
+    templateUrl: 'views/login.html'
   });
 });
