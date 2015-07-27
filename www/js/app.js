@@ -25,14 +25,16 @@ angular.module('yuefan', ['ionic', 'yuefan.services', 'yuefan.controllers'])
   });
 })
 .config(function($stateProvider){
-  $stateProvider.state('fanjus', {
-    url: '/fanjus',
-    controller: 'FanjuCtrl',
-    templateUrl: 'views/fanjus.html'
-  })
-  .state('login', {
-    url: '/login',
-    controller: 'LoginCtrl',
-    templateUrl: 'views/login.html'
-  });
+  $stateProvider
+    .state('fanjus', {
+      url: '/fanjus',
+      controller: 'FanjuCtrl',
+      templateUrl: 'views/fanjus.html'
+    })
+    .state('login', {
+      url: '/login',
+      controller: 'LoginCtrl',
+      templateUrl: 'views/login.html'
+    });
+    //$urlRouterProvider.otherwise("/fanjus");
 });

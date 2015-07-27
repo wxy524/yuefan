@@ -2,6 +2,7 @@ angular.module('yuefan.services', [])
 
 .service('FanjuSrv', ['$http', '$q', function($http, $q){
   var self = this;
+
   self.getAll = function(){
     var Fanju = Parse.Object.extend("Fanju");
     var query = new Parse.Query(Fanju);
@@ -23,7 +24,8 @@ angular.module('yuefan.services', [])
   var self = this;
   self.signup = function(user_){
     var user = new Parse.User();
-    user.set("username", user_.username);
+    // use phone number as ID
+    user.set("username", user_.phone);
     user.set("password", user_.password);
     user.set("email",    user_.email);
 
@@ -40,5 +42,18 @@ angular.module('yuefan.services', [])
       }
     });
     return defer.promise;
-  }
+  };
+
+  self.login = function(user_){
+    var defer = $q.defer();
+    Parse.User.logIn(user_.phone, user_.password, {
+      success: function(user){
+        defer.resolve(user);
+      },
+      error: function(user, error){
+        defer.reject(error);
+      }
+    });
+    return defer.promise;
+  };
 }]);
