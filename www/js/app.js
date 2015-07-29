@@ -35,6 +35,11 @@ angular.module('yuefan', ['ionic', 'yuefan.services', 'yuefan.controllers'])
       url: '/login',
       controller: 'LoginCtrl',
       templateUrl: 'views/login.html'
+    })
+    .state('add_fanju', {
+      url: '/addfanju',
+      controller: 'AddFanjuCtrl',
+      templateUrl: 'views/add_fanju.html'
     });
     //$urlRouterProvider.otherwise("/fanjus");
 });
