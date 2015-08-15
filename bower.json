@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "private": "true",
   "description": "yue fan app",
+  "authors": [
+    "Qi Qi",
+    "Meisi Huang",
+    "Xueyi Wang"
+  ],
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.1"
   },
