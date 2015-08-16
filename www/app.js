@@ -3,6 +3,7 @@
 // angular.module is a global place for creating, registering and retrieving Angular modules
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
+(function(){
 angular
     .module('yuefan', [
         'ionic',
@@ -11,7 +12,10 @@ angular
         'yuefan.fanjus',
         'yuefan.newfanju',
     ])
-    .run(function($ionicPlatform, $rootScope, $state) {
+    .run(run)
+    .config(config);
+
+    function run ($ionicPlatform, $rootScope, $state) {
         $ionicPlatform.ready(function() {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
@@ -30,8 +34,9 @@ angular
                 $state.go('login');
             }
         });
-    })
-    .config(function($stateProvider){
+    }
+
+    function config ($stateProvider){
         $stateProvider
             .state('fanjus', {
                 url: '/fanjus',
@@ -49,4 +54,5 @@ angular
                 templateUrl: 'view_new_fanju/new_fanju.html'
             });
             //$urlRouterProvider.otherwise("/fanjus");
-});
+    }
+})();
