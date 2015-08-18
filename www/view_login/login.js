@@ -64,7 +64,7 @@
             return defer.promise;
         };
 
-        function(user_){
+        function login (user_) {
             var defer = $q.defer();
             Parse.User.logIn(user_.phone, user_.password, {
                 success: function(user){
