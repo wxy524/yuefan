@@ -8,7 +8,7 @@
         .controller('FanjusCtrl', FanjusCtrl)
         .service('FanjusSrv', FanjusSrv);
 
-    function FanjusCtrl ($scope, $rootScope, $state, FanjuSrv) {
+    function FanjusCtrl ($scope, $rootScope, $state, FanjusSrv) {
         $scope.$on('$ionicView.enter', function() {
         // code to run each time view is entered
         // need a better way to do this
@@ -16,7 +16,7 @@
             'planned': [],
             'settled': []
         };
-        FanjuSrv.getAll().then(
+        FanjusSrv.getAll().then(
             function(results){
             angular.forEach(results, function(fanju){
                 if(fanju.get('status') == 'planned'){
@@ -43,7 +43,7 @@
         };
     }
 
-    function FanjusSrv ($q) {
+    function FanjusSrv ($q, $rootScope) {
         var self = this;
         self.getAll = function(){
             var Fanju = Parse.Object.extend("Fanju");
