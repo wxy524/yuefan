@@ -6,11 +6,11 @@
     angular
         .module('yuefan.login', [])
         .controller('LoginCtrl', LoginCtrl)
-        .service('LoginSrv', 'LoginSrv');
+        .service('LoginSrv', LoginSrv);
 
-    function LoginCtrl ($scope,  $rootScope, $state, SignUpSrv) {
+    function LoginCtrl ($scope,  $rootScope, $state, LoginSrv) {
         $scope.login = function(user){
-            SignUpSrv.login(user).then(
+            LoginSrv.login(user).then(
                 function(user){
                     $rootScope.sessionUser = Parse.User.current();
                     $state.go('fanjus');
@@ -24,7 +24,7 @@
 
         $scope.signup = function(user){
             //console.log(user);
-            SignUpSrv.signup(user).then(
+            LoginSrv.signup(user).then(
                 function(user){
                     $rootScope.sessionUser = user;
                     $state.go('fanjus');
