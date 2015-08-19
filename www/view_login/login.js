@@ -34,11 +34,11 @@
                     $state.go('login');
                 }
             );
-        }; 
+        };
 
         $scope.facebook = function(){
             LoginSrv.facebook().then(
-                function(){
+                function(user){
                     $rootScope.sessionUser = user;
                     $state.go('fanjus');
                 },
@@ -93,38 +93,16 @@
 
         function facebook () {
             var defer = $q.defer();
-            (function(d, s, id){
-                var js, fjs = d.getElementsByTagName(s)[0];
-                if (d.getElementById(id)) {
-                    return;
+            Parse.FacebookUtils.logIn(null, {
+                success: function(user) {
+                    defer.resolve(user);
+                    console.log("user is " + user);
+                },
+                error: function(user, error) {
+                    defer.reject(error);
+                    console.log("errer code is " + error);
                 }
-                js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js";
-                fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));    
-         
-            window.fbAsyncInit = function() {
-                Parse.FacebookUtils.init({ // this line replaces FB.init({
-                    appId      : '421761141364404', // Facebook App ID
-                    status     : true,  // check Facebook Login status
-                    cookie     : true,  // enable cookies to allow Parse to access the session
-                    xfbml      : true,  // initialize Facebook social plugins on the page
-                    version    : 'v2.3' // point to the latest Facebook Graph API version
-                });
-
-                //var defer = $q.defer();
-                Parse.FacebookUtils.logIn(null, {
-                    success: function(user) {
-                        defer.resolve(user);
-                        console.log("user is " + user);
-                    },
-                    error: function(user, error) {
-                        defer.reject(error);
-                        console.log("errer code is " + error);
-                    }
-                });
-                //return defer.promise;
-            };
+            });
             return defer.promise;
         }
     }

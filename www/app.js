@@ -15,7 +15,7 @@ angular
     .run(run)
     .config(config);
 
-    function run ($ionicPlatform, $rootScope, $state) {
+    function run ($ionicPlatform, $rootScope, $state, $window) {
         $ionicPlatform.ready(function() {
             // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
             // for form inputs)
@@ -27,12 +27,30 @@ angular
             }
             Parse.initialize("kWL2ilUOoFbTj7iC3MKJbonKkX9tMQPFouOKjB2C", "bb8LAEOzOs0ASZCQESNABIBjzjPxdOxsL7DG41mR");
 
-            $rootScope.sessionUser = Parse.User.current();
-            if($rootScope.sessionUser){
-                $state.go('fanjus');
-            } else {
-                $state.go('login');
-            }
+            $window.fbAsyncInit = function() {
+                Parse.FacebookUtils.init({ // this line replaces FB.init({
+                    appId      : '1574365689555899', // Facebook App ID
+                    //status     : true,  // check Facebook Login status
+                    //cookie     : true,  // enable cookies to allow Parse to access the session
+                    xfbml      : true,  // initialize Facebook social plugins on the page
+                    version    : 'v2.4' // point to the latest Facebook Graph API version
+                });
+
+                $rootScope.sessionUser = Parse.User.current();
+                if($rootScope.sessionUser){
+                    $state.go('fanjus');
+                } else {
+                    $state.go('login');
+                }
+            };
+
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
         });
     }
 
