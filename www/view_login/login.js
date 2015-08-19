@@ -39,6 +39,7 @@
         $scope.facebook = function(){
             LoginSrv.facebook().then(
                 function(){
+                    $rootScope.sessionUser = user;
                     $state.go('fanjus');
                 },
                 function(){
@@ -91,6 +92,7 @@
         };
 
         function facebook () {
+            var defer = $q.defer();
             (function(d, s, id){
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) {
@@ -110,17 +112,20 @@
                     version    : 'v2.3' // point to the latest Facebook Graph API version
                 });
 
-                var defer = $q.defer();
+                //var defer = $q.defer();
                 Parse.FacebookUtils.logIn(null, {
                     success: function(user) {
                         defer.resolve(user);
+                        console.log("user is " + user);
                     },
                     error: function(user, error) {
                         defer.reject(error);
+                        console.log("errer code is " + error);
                     }
                 });
-                return defer.promise;
+                //return defer.promise;
             };
+            return defer.promise;
         }
     }
 })();
