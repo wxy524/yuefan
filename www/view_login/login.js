@@ -47,7 +47,7 @@
                     $state.go('login');
                 }
             );
-        }
+        };
     }
 
     function LoginSrv ($q) {
