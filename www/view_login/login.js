@@ -35,6 +35,19 @@
                 }
             );
         };
+
+        $scope.facebook = function(){
+            LoginSrv.facebook().then(
+                function(user){
+                    $rootScope.sessionUser = user;
+                    $state.go('fanjus');
+                },
+                function(){
+                    $scope.incorrect = true;
+                    $state.go('login');
+                }
+            );
+        }
     }
 
     function LoginSrv ($q) {
@@ -42,6 +55,7 @@
 
         self.signup = signup;
         self.login = login;
+        self.facebook = facebook;
 
         function signup (user_) {
             var user = new Parse.User();
@@ -76,5 +90,21 @@
             });
             return defer.promise;
         };
+
+        function facebook () {
+            var defer = $q.defer();
+            Parse.FacebookUtils.logIn(null, {
+                success: function(user) {
+                    defer.resolve(user);
+                    console.log("user is " + user);
+                },
+                error: function(user, error) {
+                    defer.reject(error);
+                    console.log("errer code is " + error);
+                }
+            });
+            return defer.promise;
+        }
     }
 })();
+
