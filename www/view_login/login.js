@@ -47,7 +47,7 @@
                     $state.go('login');
                 }
             );
-        }
+        };
     }
 
     function LoginSrv ($q) {
@@ -96,11 +96,17 @@
             Parse.FacebookUtils.logIn(null, {
                 success: function(user) {
                     defer.resolve(user);
-                    console.log("user is " + user);
+                    /*if(!user.existed()) {
+                        defer.resolve(user);
+                        console.log("user is " + user.username); 
+                    } else {
+                        defer.resolve(user);
+                        console.log("the old user is " + user.username);
+
+                    }*/
                 },
                 error: function(user, error) {
                     defer.reject(error);
-                    console.log("errer code is " + error);
                 }
             });
             return defer.promise;

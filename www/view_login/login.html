@@ -16,10 +16,17 @@
     <button class="button button-positive" ng-click="signup(signUp_user)">
       Sign Up
     </button>
-    <button class="facebook signup" ng-click="facebook()">
+    <div id="fb-root"></div>
+    <!--<button class="facebook signup" ng-click="facebook()">
       Facebook
-    </button>
-  </div>
+    </button>-->
+        
+    <label class="item">
+      <button class="button button-block button-positive" ng-click="facebook()">
+        Login with Facebook
+      </button>
+    </label>
+
   <h4>Or</h4>
   <div class="list list-inset">
     <label class="item item-input">

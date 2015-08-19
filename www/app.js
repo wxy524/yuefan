@@ -31,7 +31,7 @@ angular
                 Parse.FacebookUtils.init({ // this line replaces FB.init({
                     appId      : '1574365689555899', // Facebook App ID
                     //status     : true,  // check Facebook Login status
-                    //cookie     : true,  // enable cookies to allow Parse to access the session
+                    //cookie     : false,  // enable cookies to allow Parse to access the session
                     xfbml      : true,  // initialize Facebook social plugins on the page
                     version    : 'v2.4' // point to the latest Facebook Graph API version
                 });
@@ -48,7 +48,7 @@ angular
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) {return;}
                 js = d.createElement(s); js.id = id;
-                js.src = "//connect.facebook.net/en_US/sdk.js";
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1574365689555899";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
         });
