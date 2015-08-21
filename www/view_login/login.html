@@ -1,27 +1,5 @@
 <ion-content>
-  <div class="list">
-    <h2 ng-show="incorrect">wrong</h2>
-    <label class="item item-input item-floating-label">
-      <span class="input-label">Phone</span>
-      <input type="text" ng-model="signUp_user.phone" placeholder="Phone" required>
-    </label>
-    <label class="item item-input item-floating-label">
-      <span class="input-label">Password</span>
-      <input type="password" ng-model="signUp_user.password" placeholder="Password" required>
-    </label>
-    <label class="item item-input item-floating-label">
-      <span class="input-label">Email(Optional)</span>
-      <input type="text" ng-model="signUp_user.email" placeholder="Email">
-    </label>
-    <button class="button button-positive" ng-click="signup(signUp_user)">
-      Sign Up
-    </button>
-    <button class="facebook signup" ng-click="facebook()">
-      Facebook
-    </button>
-  </div>
-  <h4>Or</h4>
-  <div class="list list-inset">
+ <div class="list list-inset">
     <label class="item item-input">
       <input type="text" ng-model="logIn_user.phone" placeholder="Phone" required>
     </label>
@@ -31,5 +9,11 @@
     <button class="button button-positive" ng-click="login(logIn_user)">
       Login
     </button>
+    <div class="list">
+      <p>Don not have a Yuefan account yet? Get one in seconds.<p>
+      <button class="button button-positive" ng-click="gotoSignup()">
+          Sign Up
+      </button>
+    </div>
   </div>
 </ion-content>
