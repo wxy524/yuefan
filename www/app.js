@@ -9,6 +9,7 @@ angular
         'ionic',
         'yuefan.services',
         'yuefan.login',
+        'yuefan.signup',
         'yuefan.fanjus',
         'yuefan.newfanju',
     ])
@@ -30,8 +31,8 @@ angular
             $window.fbAsyncInit = function() {
                 Parse.FacebookUtils.init({ // this line replaces FB.init({
                     appId      : '1574365689555899', // Facebook App ID
-                    //status     : true,  // check Facebook Login status
-                    //cookie     : false,  // enable cookies to allow Parse to access the session
+                    status     : true,  // check Facebook Login status
+                    cookie     : false,  // enable cookies to allow Parse to access the session
                     xfbml      : true,  // initialize Facebook social plugins on the page
                     version    : 'v2.4' // point to the latest Facebook Graph API version
                 });
@@ -65,6 +66,11 @@ angular
                 url: '/login',
                 controller: 'LoginCtrl',
                 templateUrl: 'view_login/login.html'
+            })
+            .state('signup', {
+                url: '/signup',
+                controller: 'SignupCtrl',
+                templateUrl: 'view_signup/signup.html'
             })
             .state('newfanju', {
                 url: '/newfanju',
