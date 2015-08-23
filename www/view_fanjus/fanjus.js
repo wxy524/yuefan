@@ -39,7 +39,7 @@
         };
 
         $scope.add_new_fanju = function(){
-            $state.go('add_fanju')
+            $state.go('newfanju');
         };
     }
 

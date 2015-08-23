@@ -6,10 +6,10 @@
 angular
     .module('yuefan.newfanju', ['yuefan.fanjus'])
     .controller('NewFanjuCtrl', NewFanjuCtrl);
-    //.service('FanjusSrv', FanjusSrv);
+//    .service('FanjusSrv', FanjusSrv);
 
     function NewFanjuCtrl ($scope, $state, FanjusSrv) {
-        $scope.add_fanju = function(fanju) {
+        /*$scope.add_fanju = function(fanju) {
             FanjusSrv.add_fanju(fanju).then(
                 function(fanju){
                     $state.go('fanjus');
@@ -18,14 +18,18 @@ angular
                     // need to handle failure
                 }
             );
+        }*/
+        $scope.selectFriends = function() {
+            $state.go('friendslst');
         }
+        
     }
 
-    /*function FanjusSrv ($q) {
+    /*function FanjusSrv ($q, $scope) {
         var self = this;
 
-        /*self.add_fanju = function(fanju) {
-
+        self.add_fanju = function(fanju) {
+            
         } 
 
     } */

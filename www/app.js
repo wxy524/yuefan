@@ -12,6 +12,7 @@ angular
         'yuefan.signup',
         'yuefan.fanjus',
         'yuefan.newfanju',
+        'yuefan.friendslist',
     ])
     .run(run)
     .config(config);
@@ -76,6 +77,11 @@ angular
                 url: '/newfanju',
                 controller: 'NewFanjuCtrl',
                 templateUrl: 'view_new_fanju/new_fanju.html'
+            });
+            .state('friendslist', {
+                url:'/friendslist',
+                controller: 'FriendsListCtrl',
+                templateUrl: 'view_friends_list/friends_list.html'
             });
             //$urlRouterProvider.otherwise("/fanjus");
     }
