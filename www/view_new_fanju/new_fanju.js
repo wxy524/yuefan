@@ -20,7 +20,7 @@ angular
             );
         }*/
         $scope.selectFriends = function() {
-            $state.go('friendslst');
+            $state.go('invitefriends');
         }
         
     }

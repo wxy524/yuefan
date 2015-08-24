@@ -1,0 +1,22 @@
+<ion-header-bar align-title="left" class="bar-positive">
+  <div class="buttons">
+    <button class="button" ng-click="doSomething()">Left Button</button>
+  </div>
+  <h1 class="title">邀请好友</h1>
+  <div class="buttons">
+    <button class="button">Right Button</button>
+  </div>
+  </ion-header-bar>
+
+<ion-content>
+<div class="list">
+   <!-- <div class="list list-divider">
+    我的好友
+</div>-->
+    <a class="item item-avatar" href="#" ng-repeat="friend in friendlists.list">
+        <img src="http://placekitten.com/g/200/300">
+        <h2> {{ friend.get('displayName') }}
+        <p> do something </p>    
+    </a>
+</div>
+</ion-content>
