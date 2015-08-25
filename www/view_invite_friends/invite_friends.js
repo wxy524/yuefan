@@ -13,9 +13,12 @@
             $scope.friendlist = [];
             InviteFriendsSrv.getUser().then(
                 function(results) {
-                    angular.forEach(results, function(user, friend) {
+                    angular.forEach(results, function(user) {
                         for(var i = 0; i < user.get('friendList').length; i++) {
-                            friend = user.get('friendList')[i];
+                            var friend = {
+                                          "SELECTED": "N", 
+                                          "name": user.get('friendList')[i]
+                                         };
                             $scope.friendlist.push(friend);
                         }
                     });
@@ -27,15 +30,33 @@
             );
 
             //Why this code does not work?
-            //var user = Parse.User.current();
-            //for(var i = 0; i < user.get('friendlist').length; i++) {
-            //    var friend = user.get('friendlist')[i];
-            //   $scope.friendlist.push(friend);
-            //}
-        });  
+            /*var user = Parse.User.current();
+            for(var i = 0; i < user.get('friendList').length; i++) {
+                var friend = user.get('friendList')[i];
+               $scope.friendlist.push(friend);
+            } */
+        });
+
+
+        $scope.submit = function(data) {
+            console.log("data is " + data);
+            var arr = [];
+            for(var i in data) {
+                console.log("selected ? " + data[i].SELECTED);
+                if(data[i].SELECTED == 'Y') {
+                    arr.push(data[i]);
+                }
+            }    
+            for (var i in arr) {
+                console.log("arr [" + i + "] is " + arr[i].name);
+            }
+            return arr;
+        }
+
         $scope.backToNewFanju = function() {
             $state.go('newfanju');
         };
+
         $scope.save = function() {
             InviteFriendsSrv.save().then(
                 

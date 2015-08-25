@@ -4,7 +4,7 @@
   </div>
   <h1 class="title">邀请好友</h1>
   <div class="buttons">
-    <button class="button" ng-click="save">完成</button>
+    <button class="button" ng-click="submit(friendlist)">完成</button>
   </div>
   </ion-header-bar>
 
@@ -14,15 +14,13 @@
       我的好友
     </div>
     <ion-list>
-      <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist"
-          ><!-- ng-model="friend">-->
+      <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist" 
+          ng-model="friend.SELECTED" ng-true-value="'Y'" ng-false-value="'N'">  
         <a class="item item-avatar" href="#">
           <img src="http://placekitten.com/g/200/300"> 
-          <p> {{ friend }} </p>
+            <p> {{ friend.name }} </p>
         </a>
       </ion-checkbox>
-    </ion-list>                         
-    <!--<tt>value1 = {{checkboxModel.value1}}</tt><br/>-->
-        <!--<span ng-bind="friend"></span> -->
+    </ion-list>   
 </div>
 </ion-content>
