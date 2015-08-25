@@ -20,11 +20,10 @@
         FanjusSrv.getAll().then(
             function(results){
             angular.forEach(results, function(fanju){
-                console.log("!2345" + "len is " + results.length);
                 if(fanju.get('status') == 'planned'){
-                $scope.fanjus.planned.push(fanju);
+                  $scope.fanjus.planned.push(fanju);
                 } else {
-                $scope.fanjus.settled.push(fanju);
+                  $scope.fanjus.settled.push(fanju);
                 }
             });
             }, function(error){

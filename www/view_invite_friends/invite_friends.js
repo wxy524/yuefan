@@ -10,39 +10,51 @@
     
     function InviteFriendsCtrl ($scope, $rootScope, $state, InviteFriendsSrv) {
         $scope.$on('$ionicView.enter', function(){
-            $scope.friendlists = {
-                'list': []
-            } 
-            InviteFriendsSrv.getFriendList().then(
+            $scope.friendlist = [];
+            InviteFriendsSrv.getUser().then(
                 function(results) {
-                    console.log("len is " + results.length + "sessionUser is " + $rootScope.sessionUser.get("objectId"));
-                    angular.forEach(results, function(friend) {
-                        $scope.friendlists.list.push(friend);
-                    });    
-                }, 
+                    angular.forEach(results, function(user, friend) {
+                        for(var i = 0; i < user.get('friendList').length; i++) {
+                            friend = user.get('friendList')[i];
+                            $scope.friendlist.push(friend);
+                        }
+                    });
+                },
                 function(error) {
-                    console.log("456");
                     console.log(error);
                     $state.go('fanjus');
-                }   
+                }
             );
+
+            //Why this code does not work?
+            //var user = Parse.User.current();
+            //for(var i = 0; i < user.get('friendlist').length; i++) {
+            //    var friend = user.get('friendlist')[i];
+            //   $scope.friendlist.push(friend);
+            //}
         });  
-        $scope.doSomething = function() {
+        $scope.backToNewFanju = function() {
             $state.go('newfanju');
         };
-        
+        $scope.save = function() {
+            InviteFriendsSrv.save().then(
+                
+            );
+        };
     }    
 
     function InviteFriendsSrv ($q, $rootScope) {
         var self = this;
-        self.getFriendList = function() {
-            var query = new Parse.Query(Parse.User);
-            //query.equalTo("objectId", $rootScope.sessionUser); 
-            query.equalTo("objectId", "I5dORIlzQm"); 
+
+        self.getUser = getUser;
+
+        function getUser(){
+          var query = new Parse.Query(Parse.User);
+            query.equalTo("objectId", $rootScope.sessionUser.id); 
             var defer = $q.defer();
             query.find({
                 success: function(results) {
-                    defer.resolve(results);
+                  defer.resolve(results);
                 },
                 error: function(error) {
                     defer.reject(error);
@@ -50,6 +62,10 @@
             });
             return defer.promise;
         };
+
+        self.save = function() {
+
+        }
     }
 })();
 

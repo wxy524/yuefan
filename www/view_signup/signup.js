@@ -66,17 +66,19 @@
             var user = new Parse.User();
 
             var defer = $q.defer();
-            Parse.FacebookUtils.logIn(null, { 
+            Parse.FacebookUtils.logIn('email', { 
                 success: function(user) {
-                    if(!user.existed()) {
-                        FB.api('/me?fields=name,email', function(me) {
-                            /*user.set("email", me.email);
+            //        if(!user.existed()) {
+                        //FB.api('/me?fields=name,email', function(me) {
+                        FB.api('/me', {fields: 'name, email'}, function(me) {
+                            user.set("email", me.email);
                             user.set("username", me.email);
                             user.set("password", "123456");
-                            console.log("/me response", me.email);*/
-                        });                                        
-                    }
-                    defer.resolve(user);
+                            //console.log("/me response", me.email);
+                        });
+                        defer.resolve(user);                        
+           //         } 
+                    //defer.resolve(user);
                 },
                 error: function(user, error) {
                     defer.reject(error);

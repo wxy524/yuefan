@@ -22,6 +22,9 @@ angular
         $scope.selectFriends = function() {
             $state.go('invitefriends');
         }
+        $scope.backToFanju = function() {
+            $state.go('fanjus');
+        }
         
     }
 

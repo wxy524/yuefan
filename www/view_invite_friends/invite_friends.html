@@ -1,22 +1,28 @@
 <ion-header-bar align-title="left" class="bar-positive">
   <div class="buttons">
-    <button class="button" ng-click="doSomething()">Left Button</button>
+    <button class="button" ng-click="backToNewFanju()">Left Button</button>
   </div>
   <h1 class="title">邀请好友</h1>
   <div class="buttons">
-    <button class="button">Right Button</button>
+    <button class="button" ng-click="save">完成</button>
   </div>
   </ion-header-bar>
 
 <ion-content>
 <div class="list">
-   <!-- <div class="list list-divider">
-    我的好友
-</div>-->
-    <a class="item item-avatar" href="#" ng-repeat="friend in friendlists.list">
-        <img src="http://placekitten.com/g/200/300">
-        <h2> {{ friend.get('displayName') }}
-        <p> do something </p>    
-    </a>
+    <div class="list list-divider">
+      我的好友
+    </div>
+    <ion-list>
+      <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist"
+          ><!-- ng-model="friend">-->
+        <a class="item item-avatar" href="#">
+          <img src="http://placekitten.com/g/200/300"> 
+          <p> {{ friend }} </p>
+        </a>
+      </ion-checkbox>
+    </ion-list>                         
+    <!--<tt>value1 = {{checkboxModel.value1}}</tt><br/>-->
+        <!--<span ng-bind="friend"></span> -->
 </div>
 </ion-content>
