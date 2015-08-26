@@ -7,7 +7,7 @@
         .module('yuefan.signup', [])
         .controller('SignupCtrl', SignupCtrl)
         .service('SignupSrv', SignupSrv);
-    
+
     function SignupCtrl ($scope, $rootScope, $state, SignupSrv) {
         $scope.signup = function(user) {
             SignupSrv.signup(user).then(
@@ -21,7 +21,7 @@
                 }
             );
         };
-        
+
          $scope.facebook = function(){
             SignupSrv.facebook().then(
                 function(user){
@@ -33,12 +33,11 @@
                     $state.go('signup');
                 }
             );
-        };    
+        };
     }
 
     function SignupSrv($q) {
         var self = this;
-        
         self.signup = signup;
         self.facebook = facebook;
 
@@ -57,7 +56,7 @@
                 error: function(user, error) {
                     alert("Error: " + error.code + " " + error.message);
                     defer.reject(error);
-                }    
+                }
             });
             return defer.promise;
         };
@@ -66,7 +65,7 @@
             var user = new Parse.User();
 
             var defer = $q.defer();
-            Parse.FacebookUtils.logIn(null, { 
+            Parse.FacebookUtils.logIn(null, {
                 success: function(user) {
                     if(!user.existed()) {
                         FB.api('/me?fields=name,email', function(me) {
@@ -74,7 +73,7 @@
                             user.set("username", me.email);
                             user.set("password", "123456");
                             console.log("/me response", me.email);*/
-                        });                                        
+                        });
                     }
                     defer.resolve(user);
                 },
@@ -83,9 +82,6 @@
                 }
             });
             return defer.promise;
-        }    
+        }
     }
 })();
-
-
-

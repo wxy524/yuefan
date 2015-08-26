@@ -16,6 +16,7 @@
                     $state.go('fanjus');
                 },
                 function(error){
+                    console.log(error);
                     $scope.incorrect = true;
                     $state.go('login');
                 }
@@ -44,7 +45,6 @@
             });
             return defer.promise;
         };
-
-    }  
+    }
 })();
 
