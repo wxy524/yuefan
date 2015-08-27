@@ -37,13 +37,6 @@ angular
                     xfbml      : true,  // initialize Facebook social plugins on the page
                     version    : 'v2.4' // point to the latest Facebook Graph API version
                 });
-
-                $rootScope.sessionUser = Parse.User.current();
-                if($rootScope.sessionUser){
-                    $state.go('fanjus');
-                } else {
-                    $state.go('login');
-                }
             };
 
             (function(d, s, id){
@@ -53,6 +46,13 @@ angular
                 js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4&appId=1574365689555899";
                 fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));
+
+            $rootScope.sessionUser = Parse.User.current();
+            if($rootScope.sessionUser){
+                $state.go('fanjus');
+            } else {
+                $state.go('login');
+            }
         });
     }
 
