@@ -25,10 +25,12 @@
          $scope.facebook = function(){
             SignupSrv.facebook().then(
                 function(user){
+                    alert("user success");
                     $rootScope.sessionUser = user;
                     $state.go('fanjus');
                 },
                 function(error){
+                    alert("user failed");
                     $scope.incorrect = true;
                     $state.go('signup');
                 }
@@ -62,19 +64,17 @@
         };
 
         function facebook () {
-            var user = new Parse.User();
-
             var defer = $q.defer();
-            Parse.FacebookUtils.logIn(null, {
-                success: function(user) {
-                    if(!user.existed()) {
-                        FB.api('/me?fields=name,email', function(me) {
+            Parse.FacebookUtils.logIn('email', {
+              success: function(user) {
+                    //if(!user.existed()) {
+                        //FB.api('/me?fields=name,email', function(me) {
                             /*user.set("email", me.email);
                             user.set("username", me.email);
                             user.set("password", "123456");
                             console.log("/me response", me.email);*/
-                        });
-                    }
+                        //});
+                    //}
                     defer.resolve(user);
                 },
                 error: function(user, error) {
