@@ -47,7 +47,7 @@
             // user phone number as ID
             user.set("username", user_.phone);
             user.set("password", user_.password);
-            user.set("email", user_.email);
+            user.set("email", user_.email); 
 
             var defer = $q.defer();
             user.signUp(null, {

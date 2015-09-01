@@ -42,6 +42,18 @@
         $scope.add_new_fanju = function(){
             $state.go('newfanju');
         };
+
+        $scope.addFriend = function() {
+          FanjusSrv.addFriend().then(
+              function(result) {
+                  $rootScope.sessionUser.set("friendList", result);
+                  $rootScope.sessionUser.save();
+              },
+              function(error) {
+                  console.log("this is error " + error);
+              }
+          );   
+        }
     }
 
     function FanjusSrv ($q, $rootScope) {
@@ -80,6 +92,24 @@
             }
             });
             return defer.promise;
-        };
+        };                         
+
+        self.addFriend = function(){
+            var query = new Parse.Query(Parse.User);
+            query.equalTo("objectId", "fmbJNNPM8e");            
+
+            var defer = $q.defer();
+            query.find({
+                success: function(result) {
+                    console.log("success");
+                    defer.resolve(result);
+                },
+                error: function(result, err) {
+                    console.log("failed");
+                    defer.reject(err);
+                }
+            });
+            return defer.promise;
+        } 
     }
 })();

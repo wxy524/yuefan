@@ -11,9 +11,9 @@
     function InviteFriendsCtrl ($scope, $rootScope, $state, InviteFriendsSrv) {
         $scope.$on('$ionicView.enter', function(){
             $scope.friendlist = [];
-            InviteFriendsSrv.getUser().then(
+            InviteFriendsSrv.getFriendLists().then(
                 function(results) {
-                    angular.forEach(results, function(user) {
+                  angular.forEach(results, function(user) {
                         for(var i = 0; i < user.get('friendList').length; i++) {
                             var friend = {
                                           "SELECTED": "N", 
@@ -21,13 +21,14 @@
                                          };
                             $scope.friendlist.push(friend);
                         }
-                    });
+                    }); 
                 },
                 function(error) {
                     console.log(error);
                     $state.go('fanjus');
                 }
-            );
+            ); 
+
 
             //Why this code does not work?
             /*var user = Parse.User.current();
@@ -37,47 +38,50 @@
             } */
         });
 
+        $scope.addedFriends = [];
 
         $scope.submit = function(data) {
             console.log("data is " + data);
-            var arr = [];
             for(var i in data) {
                 console.log("selected ? " + data[i].SELECTED);
                 if(data[i].SELECTED == 'Y') {
-                    arr.push(data[i]);
+                    $scope.addedFriends.push(data[i]);
+                } else {
+                    $scope.addedFriends.slice(i, i+1);
                 }
             }    
-            for (var i in arr) {
+            /*for (var i in arr) {
                 console.log("arr [" + i + "] is " + arr[i].name);
-            }
-            return arr;
+            } */
+            return $scope.addedFriends;
         }
 
         $scope.backToNewFanju = function() {
             $state.go('newfanju');
         };
 
-        $scope.save = function() {
+        /*$scope.save = function() {
             InviteFriendsSrv.save().then(
                 
             );
-        };
+        };*/
     }    
 
     function InviteFriendsSrv ($q, $rootScope) {
         var self = this;
 
-        self.getUser = getUser;
+        self.getFriendLists = getFriendLists;
 
-        function getUser(){
-          var query = new Parse.Query(Parse.User);
+        function getFriendLists(user){
+            var query = new Parse.Query(Parse.User);
             query.equalTo("objectId", $rootScope.sessionUser.id); 
             var defer = $q.defer();
             query.find({
-                success: function(results) {
-                  defer.resolve(results);
+                success: function(user) {
+                  defer.resolve(user);
                 },
                 error: function(error) {
+                    console.log("the error is " + error);
                     defer.reject(error);
                 }
             });
