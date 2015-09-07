@@ -13,8 +13,10 @@
     <a class="item item-icon-left" href="" ng-click="selectFriends()">
       <i class="icon ion-person-stalker"></i>
       受邀好友
-      <!--<span class="badge badge-assertive">0</span>-->
-    </a>  
+    </a> 
+    <ion-item ng-show="incorrect">
+      <p>{{ addedFriendList }} <p>  
+    </ion-item> 
     <a class="item item-icon-left" href="#" >
       <i class="icon ion-android-calendar"></i>
       候选时间

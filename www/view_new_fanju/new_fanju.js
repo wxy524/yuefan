@@ -17,14 +17,17 @@ angular
                     // need to handle failure
                 }
             );
-        }
+        };
+
         $scope.selectFriends = function() {
             $state.go('invitefriends');
-        }
+        };
+
+        $scope.addedFriendList = [];
+        $scope.incorrect = true;
+
         $scope.backToFanju = function() {
             $state.go('fanjus');
-        }
-        
+        };
     }
-
 })();

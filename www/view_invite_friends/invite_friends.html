@@ -4,27 +4,26 @@
   </div>
   <h1 class="title">邀请好友</h1>
   <div class="buttons">
-    <button class="button" ng-click="submit(friendlist)">完成</button>
+    <button class="button" ng-click="submit()">完成</button>
   </div>
   </ion-header-bar>
 
 <ion-content>
 <div class="list">
-    <div class="list list-divider">
+  <div class="list list-divider">
       我的好友
-    </div>
-    <ion-list>
-      <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist" 
+  </div>
+  <ion-list>
+    <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist" 
           ng-model="friend.SELECTED" ng-true-value="'Y'" ng-false-value="'N'">  
-        <a class="item item-avatar" href="#">
-          <img src="http://placekitten.com/g/200/300"> 
-            <p> {{ friend.name }} </p>
-        </a>
-      </ion-checkbox>
-    </ion-list>
-    <ion-item >
-              
-      <p>{{addedFriends}}</p>
-    </ion-item>   
+      <a class="item item-avatar" href="#">
+        <img src="http://placekitten.com/g/200/300"> 
+        <p> {{ friend.name }} </p>
+      </a>
+    </ion-checkbox>
+  </ion-list>
+  <ion-item ng-repeat = "friend in addedFriends()">
+    <p> {{ friend.name }} </p>            
+  </ion-item>   
 </div>
 </ion-content>

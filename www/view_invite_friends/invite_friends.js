@@ -4,20 +4,20 @@
 (function() {
     'use strict';
     angular
-        .module('yuefan.invitefriends', [])
+        .module('yuefan.invitefriends', ['yuefan.fanjus'])
         .controller('InviteFriendsCtrl',InviteFriendsCtrl)
         .service('InviteFriendsSrv', InviteFriendsSrv);
     
-    function InviteFriendsCtrl ($scope, $rootScope, $state, InviteFriendsSrv) {
-        $scope.$on('$ionicView.enter', function(){
+    function InviteFriendsCtrl ($scope, $rootScope, $state, InviteFriendsSrv, FanjuSrv) {
+        $scope.$watch('$ionicView.enter', function(){
             $scope.friendlist = [];
             InviteFriendsSrv.getFriendLists().then(
                 function(results) {
                   angular.forEach(results, function(user) {
                         for(var i = 0; i < user.get('friendList').length; i++) {
                             var friend = {
-                                          "SELECTED": "N", 
-                                          "name": user.get('friendList')[i]
+                                            "SELECTED": "N", 
+                                            "name": user.get('friendList')[i]
                                          };
                             $scope.friendlist.push(friend);
                         }
@@ -28,8 +28,6 @@
                     $state.go('fanjus');
                 }
             ); 
-
-
             //Why this code does not work?
             /*var user = Parse.User.current();
             for(var i = 0; i < user.get('friendList').length; i++) {
@@ -37,34 +35,26 @@
                $scope.friendlist.push(friend);
             } */
         });
-
-        $scope.addedFriends = [];
-
-        $scope.submit = function(data) {
-            console.log("data is " + data);
-            for(var i in data) {
-                console.log("selected ? " + data[i].SELECTED);
-                if(data[i].SELECTED == 'Y') {
-                    $scope.addedFriends.push(data[i]);
-                } else {
-                    $scope.addedFriends.slice(i, i+1);
+        
+        $scope.addedFriends = function() {
+            for(var i in $scope.friendlist) {
+                if($scope.friendlist[i].SELECTED == 'Y') {
+                    NewFanjuCtrl.addedFriendList.push($scope.friendlist[i]);
                 }
-            }    
-            /*for (var i in arr) {
-                console.log("arr [" + i + "] is " + arr[i].name);
-            } */
-            return $scope.addedFriends;
+            } 
+            return $scope.addedFriendList;
+        };     
+
+        $scope.submit = function() {
+            /*if($scope.addedFriendList.length != 0) {
+                NewFanjuCtrl.incorrect = true;
+            }*/
+            $state.go('newfanju');
         }
 
         $scope.backToNewFanju = function() {
             $state.go('newfanju');
         };
-
-        /*$scope.save = function() {
-            InviteFriendsSrv.save().then(
-                
-            );
-        };*/
     }    
 
     function InviteFriendsSrv ($q, $rootScope) {
@@ -87,10 +77,6 @@
             });
             return defer.promise;
         };
-
-        self.save = function() {
-
-        }
     }
 })();
 
