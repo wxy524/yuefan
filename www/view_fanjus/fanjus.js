@@ -32,19 +32,19 @@
             }
         );
         });
-        
+
         $scope.logout = function(){
             Parse.User.logOut();
             $rootScope.sessionUser = Parse.User.current();
             $state.go('login');
         };
-        
+
         $scope.add_new_fanju = function(){
             $state.go('newfanju');
         };
 
-        $scope.addFriend = function() {
-          FanjusSrv.addFriend().then(
+        $scope.addFriendToTest = function() {
+          FanjusSrv.addFriendToTest().then(
               function(result) {
                   $rootScope.sessionUser.set("friendList", result);
                   $rootScope.sessionUser.save();
@@ -52,12 +52,13 @@
               function(error) {
                   console.log("this is error " + error);
               }
-          );   
-        }
+          );
+        };
     }
 
     function FanjusSrv ($q, $rootScope) {
         var self = this;
+        var invitedFriendList = [];
         self.getAll = function(){
             var Fanju = Parse.Object.extend("Fanju");
             var query = new Parse.Query(Fanju);
@@ -92,11 +93,35 @@
             }
             });
             return defer.promise;
-        };                         
+        };
 
-        self.addFriend = function(){
+        self.getFriendLists = function (user){
             var query = new Parse.Query(Parse.User);
-            query.equalTo("objectId", "fmbJNNPM8e");            
+            query.equalTo("objectId", $rootScope.sessionUser.id);
+            var defer = $q.defer();
+            query.find({
+                success: function(user) {
+                    defer.resolve(user);
+                },
+                error: function(error) {
+                    console.log("the error is " + error);
+                    defer.reject(error);
+                }
+            });
+            return defer.promise;
+        };
+
+        self.setInvitedFriend = function(user){
+            invitedFriendList.push(user);
+        };
+
+        self.getInvitedFriend = function(){
+            return invitedFriendList;
+        };
+
+        self.addFriendToTest = function(){
+            var query = new Parse.Query(Parse.User);
+            query.equalTo("objectId", "fmbJNNPM8e");
 
             var defer = $q.defer();
             query.find({
@@ -110,6 +135,6 @@
                 }
             });
             return defer.promise;
-        } 
+        };
     }
 })();

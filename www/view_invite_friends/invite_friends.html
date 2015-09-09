@@ -14,16 +14,16 @@
       我的好友
   </div>
   <ion-list>
-    <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist" 
-          ng-model="friend.SELECTED" ng-true-value="'Y'" ng-false-value="'N'">  
+    <ion-checkbox class="item item-checkbox-right" ng-repeat="friend in friendlist"
+          ng-model="friend.SELECTED" ng-true-value="'Y'" ng-false-value="'N'">
       <a class="item item-avatar" href="#">
-        <img src="http://placekitten.com/g/200/300"> 
+        <img src="http://placekitten.com/g/200/300">
         <p> {{ friend.name }} </p>
       </a>
     </ion-checkbox>
   </ion-list>
   <ion-item ng-repeat = "friend in addedFriends()">
-    <p> {{ friend.name }} </p>            
-  </ion-item>   
+    <p> {{ friend.name }} </p>
+  </ion-item>
 </div>
 </ion-content>
