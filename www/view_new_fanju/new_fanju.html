@@ -3,20 +3,19 @@
   <h1 class="title">New Fanju</h1>
 </ion-header-bar>
 <ion-content>
-  
   <div>
     <label class="item item-input">
       <i class="icon ion-edit placeholder-icon"></i>
       <!--<span class="input-label"> Title</span> -->
       <input type="text" placeholder="说点什么..." ng-model="fanju.title">
-    </label>                    
+    </label>
     <a class="item item-icon-left" href="" ng-click="selectFriends()">
       <i class="icon ion-person-stalker"></i>
       受邀好友
-    </a> 
-    <ion-item ng-show="incorrect">
-      <p>{{ addedFriendList }} <p>  
-    </ion-item> 
+    </a>
+    <ion-item ng-model="addedFriendList">
+      <p>{{ addedFriendList }} <p>
+    </ion-item>
     <a class="item item-icon-left" href="#" >
       <i class="icon ion-android-calendar"></i>
       候选时间

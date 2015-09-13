@@ -110,7 +110,6 @@
             });
             return defer.promise;
         };
-
         self.setInvitedFriend = function(user){
             invitedFriendList.push(user);
         };

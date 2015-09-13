@@ -8,7 +8,7 @@
         .controller('InviteFriendsCtrl',InviteFriendsCtrl);
 
         function InviteFriendsCtrl ($scope, $rootScope, $state, FanjusSrv) {
-        $scope.$watch('$ionicView.enter', function(){
+        //$scope.$watch('$ionicView.enter', function(){
             $scope.friendlist = [];
             FanjusSrv.getFriendLists().then(
                 function(results) {
@@ -33,24 +33,26 @@
                 var friend = user.get('friendList')[i];
                $scope.friendlist.push(friend);
             } */
-        });
-
-        $scope.addedFriends = function() {
-            for(var i in $scope.friendlist) {
+        //});
+        var addedFriends = [];
+        $scope.addedFriends = function(){
+            var added = [];
+            for(var i in $scope.friendlist){
                 if($scope.friendlist[i].SELECTED == 'Y') {
-                    FanjusSrv.setInvitedFriend($scope.friendlist[i].name);
+                    added.push($scope.friendlist[i]);
                 }
             }
-            return FanjusSrv.getInvitedFriend();
+            addedFriends = added;
+            return added;
         };
 
         $scope.submit = function() {
+            FanjusSrv.invitedFriendList = addedFriends;
             /*if($scope.addedFriendList.length != 0) {
                 NewFanjuCtrl.incorrect = true;
             }*/
             $state.go('newfanju');
         };
-
         $scope.backToNewFanju = function() {
             $state.go('newfanju');
         };
