@@ -19,15 +19,14 @@ angular
             );
         };
 
-        $scope.addedFriendList = FanjusSrv.invitedFriendList;
-        console.log("invitedFriendList is " + $scope.addedFriendList);
+        $scope.addedFriends = function() {
+            return FanjusSrv.invitedFriendList;
+        };
 
         $scope.selectFriends = function() {
             $state.go('invitefriends');
+            console.log(FanjusSrv.invitedFriendList);
         };
-
-        $scope.addedFriendList = [];
-        $scope.incorrect = true;
 
         $scope.backToFanju = function() {
             $state.go('fanjus');

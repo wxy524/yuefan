@@ -8,18 +8,19 @@
         .controller('InviteFriendsCtrl',InviteFriendsCtrl);
 
         function InviteFriendsCtrl ($scope, $rootScope, $state, FanjusSrv) {
-        //$scope.$watch('$ionicView.enter', function(){
+        $scope.$on('$ionicView.enter', function(){
             $scope.friendlist = [];
             FanjusSrv.getFriendLists().then(
-                function(results) {
-                  angular.forEach(results, function(user) {
-                        for(var i = 0; i < user.get('friendList').length; i++) {
+                function(result) {
+                    angular.forEach(result, function(user) {
+                        var friendList = user.get('friendList');
+                        angular.forEach(friendList, function(friendName) {
                             var friend = {
-                                            "SELECTED": "N",
-                                            "name": user.get('friendList')[i]
-                                         };
+                                         "SELECTED":  "N",
+                                         "name": friendName
+                            };
                             $scope.friendlist.push(friend);
-                        }
+                        });
                     });
                 },
                 function(error) {
@@ -33,24 +34,19 @@
                 var friend = user.get('friendList')[i];
                $scope.friendlist.push(friend);
             } */
-        //});
-        var addedFriends = [];
+        });
+        var selectedFriends = [];
         $scope.addedFriends = function(){
-            var added = [];
+            selectedFriends = [];
             for(var i in $scope.friendlist){
                 if($scope.friendlist[i].SELECTED == 'Y') {
-                    added.push($scope.friendlist[i]);
+                    selectedFriends.push($scope.friendlist[i]);
                 }
             }
-            addedFriends = added;
-            return added;
+            return selectedFriends;
         };
-
         $scope.submit = function() {
-            FanjusSrv.invitedFriendList = addedFriends;
-            /*if($scope.addedFriendList.length != 0) {
-                NewFanjuCtrl.incorrect = true;
-            }*/
+            FanjusSrv.invitedFriendList = selectedFriends;
             $state.go('newfanju');
         };
         $scope.backToNewFanju = function() {

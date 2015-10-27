@@ -97,7 +97,7 @@
 
         self.getFriendLists = function (user){
             var query = new Parse.Query(Parse.User);
-            query.equalTo("objectId", $rootScope.sessionUser.id);
+            //query.equalTo("objectId", $rootScope.sessionUser.id);
             var defer = $q.defer();
             query.find({
                 success: function(user) {
@@ -110,14 +110,8 @@
             });
             return defer.promise;
         };
-        self.setInvitedFriend = function(user){
-            invitedFriendList.push(user);
-        };
 
-        self.getInvitedFriend = function(){
-            return invitedFriendList;
-        };
-
+        /*This code is using for test*/
         self.addFriendToTest = function(){
             var query = new Parse.Query(Parse.User);
             query.equalTo("objectId", "fmbJNNPM8e");

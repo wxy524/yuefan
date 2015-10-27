@@ -22,7 +22,7 @@
       </a>
     </ion-checkbox>
   </ion-list>
-  <ion-item>
+  <ion-item ng-hide="addedFriends().length==0 || addedFriends()==null">
       {{ addedFriends() }}
   </ion-item>
 </div>
