@@ -1,0 +1,38 @@
+<ion-header-bar align-title="center" class="bar bar-header bar-positive">
+  <button class="button button-icon icon ion-android-person" ng-click="backToFanju()"></button>
+  <h1 class="title">New Fanju</h1>
+</ion-header-bar>
+<ion-content>
+  <div>
+    <label class="item item-input">
+      <i class="icon ion-edit placeholder-icon"></i>
+      <!--<span class="input-label"> Title</span> -->
+      <input type="text" placeholder="说点什么..." ng-model="fanju.title">
+    </label>
+  </div>
+    <a class="item item-icon-left" href="" ng-click="selectFriends()">
+      <i class="icon ion-person-stalker"></i>
+      受邀好友
+    </a>
+    <ion-item ng-hide="addedFriends().length==0 || addedFriends() == null">
+      {{ addedFriends() }}
+    </ion-item>
+    <a class="item item-icon-left" href="#" >
+      <i class="icon ion-android-calendar"></i>
+      候选时间
+    </a>
+    <a class="item item-icon-left" href="#">
+      <i class="icon ion-ios-location"></i>
+      候选地点
+    </a>
+  <!--<label class="item item-iput">
+    <span class="input-label">Date</span>
+    <input type="date" ng-model="fanju.date">
+  </label>
+
+  <label class="item item-input">
+    <span class="input-label">Location</span>
+    <input type="text" ng-model="fanju.location">
+  </label> -->
+  <button class="button" ng-click="add_fanju(fanju)">发起邀请</button>
+</ion-content>

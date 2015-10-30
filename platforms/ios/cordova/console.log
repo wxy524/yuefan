@@ -1,0 +1,529 @@
+2015-08-27 13:06:41.722 yuefan[15712:579449] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Data/Application/8BDB9411-5619-4BF5-B6D6-E518F7642609/Library/Cookies/Cookies.binarycookies
+2015-08-27 13:06:41.833 yuefan[15712:579449] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:06:41.834 yuefan[15712:579449] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:06:41.836 yuefan[15712:579449] Unlimited access to network resources
+2015-08-27 13:06:41.922 yuefan[15712:579449] [CDVTimer][splashscreen] 14.042974ms
+2015-08-27 13:06:41.922 yuefan[15712:579449] [CDVTimer][keyboard] 0.048995ms
+2015-08-27 13:06:41.922 yuefan[15712:579449] [CDVTimer][TotalPluginStartup] 14.315963ms
+2015-08-27 13:06:42.204 yuefan[15712:579449] Resetting plugins due to page load.
+2015-08-27 13:06:42.334 yuefan[15712:579449] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/58E361F9-7D41-4506-A80A-E7F4C060AD5A/yuefan.app/www/index.html
+2015-08-27 13:10:18.330 yuefan[15874:583911] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:10:18.330 yuefan[15874:583911] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:10:18.332 yuefan[15874:583911] Unlimited access to network resources
+2015-08-27 13:10:18.411 yuefan[15874:583911] [CDVTimer][splashscreen] 13.221979ms
+2015-08-27 13:10:18.411 yuefan[15874:583911] [CDVTimer][keyboard] 0.044942ms
+2015-08-27 13:10:18.411 yuefan[15874:583911] [CDVTimer][TotalPluginStartup] 13.490021ms
+2015-08-27 13:10:18.460 yuefan[15874:583911] Resetting plugins due to page load.
+2015-08-27 13:10:18.596 yuefan[15874:583911] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/7F013191-B8DD-479A-A8CC-CF2C0F762D52/yuefan.app/www/index.html
+2015-08-27 13:19:27.683 yuefan[16199:597841] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:19:27.684 yuefan[16199:597841] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:19:27.685 yuefan[16199:597841] Unlimited access to network resources
+2015-08-27 13:19:27.761 yuefan[16199:597841] [CDVTimer][splashscreen] 11.822999ms
+2015-08-27 13:19:27.761 yuefan[16199:597841] [CDVTimer][keyboard] 0.045955ms
+2015-08-27 13:19:27.761 yuefan[16199:597841] [CDVTimer][TotalPluginStartup] 12.098014ms
+2015-08-27 13:19:27.815 yuefan[16199:597841] Resetting plugins due to page load.
+2015-08-27 13:19:27.922 yuefan[16199:597841] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/5C3EC1A4-3519-4741-949D-3AF2EE41D556/yuefan.app/www/index.html
+2015-08-27 13:19:52.304 yuefan[16290:599008] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:19:52.305 yuefan[16290:599008] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:19:52.306 yuefan[16290:599008] Unlimited access to network resources
+2015-08-27 13:19:52.384 yuefan[16290:599008] [CDVTimer][splashscreen] 13.738990ms
+2015-08-27 13:19:52.384 yuefan[16290:599008] [CDVTimer][keyboard] 0.048995ms
+2015-08-27 13:19:52.384 yuefan[16290:599008] [CDVTimer][TotalPluginStartup] 14.068007ms
+2015-08-27 13:19:52.436 yuefan[16290:599008] Resetting plugins due to page load.
+2015-08-27 13:19:52.583 yuefan[16290:599008] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/D7AC1D78-7D93-4533-BAB5-7CE1BB35F5B3/yuefan.app/www/index.html
+2015-08-27 13:21:06.449 yuefan[16361:601573] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:21:06.450 yuefan[16361:601573] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:21:06.452 yuefan[16361:601573] Unlimited access to network resources
+2015-08-27 13:21:06.547 yuefan[16361:601573] [CDVTimer][splashscreen] 16.790986ms
+2015-08-27 13:21:06.548 yuefan[16361:601573] [CDVTimer][keyboard] 0.052989ms
+2015-08-27 13:21:06.548 yuefan[16361:601573] [CDVTimer][TotalPluginStartup] 17.123997ms
+2015-08-27 13:21:06.600 yuefan[16361:601573] Resetting plugins due to page load.
+2015-08-27 13:21:06.735 yuefan[16361:601573] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/2CE4C37D-7715-4ADF-B4E0-7EB364EFFA2B/yuefan.app/www/index.html
+2015-08-27 13:25:36.378 yuefan[16624:606985] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:25:36.379 yuefan[16624:606985] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:25:36.380 yuefan[16624:606985] Unlimited access to network resources
+2015-08-27 13:25:36.463 yuefan[16624:606985] [CDVTimer][splashscreen] 16.937017ms
+2015-08-27 13:25:36.463 yuefan[16624:606985] [CDVTimer][keyboard] 0.051022ms
+2015-08-27 13:25:36.463 yuefan[16624:606985] [CDVTimer][TotalPluginStartup] 17.234981ms
+2015-08-27 13:25:36.523 yuefan[16624:606985] Resetting plugins due to page load.
+2015-08-27 13:25:36.630 yuefan[16624:606985] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/52EAD13D-52BA-4DF1-A007-7C871D7CA10F/yuefan.app/www/index.html
+2015-08-27 13:25:55.310 yuefan[16682:607861] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:25:55.311 yuefan[16682:607861] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:25:55.312 yuefan[16682:607861] Unlimited access to network resources
+2015-08-27 13:25:55.402 yuefan[16682:607861] [CDVTimer][splashscreen] 13.544023ms
+2015-08-27 13:25:55.402 yuefan[16682:607861] [CDVTimer][keyboard] 0.050962ms
+2015-08-27 13:25:55.402 yuefan[16682:607861] [CDVTimer][TotalPluginStartup] 13.834000ms
+2015-08-27 13:25:55.467 yuefan[16682:607861] Resetting plugins due to page load.
+2015-08-27 13:25:55.585 yuefan[16682:607861] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/97ABBD8F-72D8-4605-A583-E9F62E58B289/yuefan.app/www/index.html
+2015-08-27 13:28:56.088 yuefan[16833:612588] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:28:56.089 yuefan[16833:612588] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:28:56.090 yuefan[16833:612588] Unlimited access to network resources
+2015-08-27 13:28:56.169 yuefan[16833:612588] [CDVTimer][splashscreen] 14.415026ms
+2015-08-27 13:28:56.169 yuefan[16833:612588] [CDVTimer][keyboard] 0.051022ms
+2015-08-27 13:28:56.169 yuefan[16833:612588] [CDVTimer][TotalPluginStartup] 14.696956ms
+2015-08-27 13:28:56.218 yuefan[16833:612588] Resetting plugins due to page load.
+2015-08-27 13:28:56.344 yuefan[16833:612588] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/D8E74B80-0742-4638-8F1B-D846CBFE967F/yuefan.app/www/index.html
+2015-08-27 13:31:48.020 yuefan[16833:612588] data is [object Object],[object Object]
+2015-08-27 13:31:48.020 yuefan[16833:612588] selected ? Y
+2015-08-27 13:31:48.021 yuefan[16833:612588] selected ? Y
+2015-08-27 13:31:48.021 yuefan[16833:612588] arr [0] is test2
+2015-08-27 13:31:48.021 yuefan[16833:612588] arr [1] is test1
+2015-08-27 13:34:09.903 yuefan[17001:620940] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:34:09.904 yuefan[17001:620940] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:34:09.905 yuefan[17001:620940] Unlimited access to network resources
+2015-08-27 13:34:09.983 yuefan[17001:620940] [CDVTimer][splashscreen] 12.053967ms
+2015-08-27 13:34:09.983 yuefan[17001:620940] [CDVTimer][keyboard] 0.066996ms
+2015-08-27 13:34:09.984 yuefan[17001:620940] [CDVTimer][TotalPluginStartup] 12.428999ms
+2015-08-27 13:34:10.031 yuefan[17001:620940] Resetting plugins due to page load.
+2015-08-27 13:34:10.155 yuefan[17001:620940] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/BBC17BFA-74B1-4B64-8DC4-EB65C98D494B/yuefan.app/www/index.html
+2015-08-27 13:34:55.407 yuefan[17067:621936] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:34:55.408 yuefan[17067:621936] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:34:55.409 yuefan[17067:621936] Unlimited access to network resources
+2015-08-27 13:34:55.489 yuefan[17067:621936] [CDVTimer][splashscreen] 13.611019ms
+2015-08-27 13:34:55.490 yuefan[17067:621936] [CDVTimer][keyboard] 0.046968ms
+2015-08-27 13:34:55.490 yuefan[17067:621936] [CDVTimer][TotalPluginStartup] 13.891995ms
+2015-08-27 13:34:55.539 yuefan[17067:621936] Resetting plugins due to page load.
+2015-08-27 13:34:55.661 yuefan[17067:621936] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/1B3BB0EA-2B88-457A-BDA8-2B3CD28CED4D/yuefan.app/www/index.html
+2015-08-27 13:35:57.354 yuefan[17133:623399] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:35:57.355 yuefan[17133:623399] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:35:57.356 yuefan[17133:623399] Unlimited access to network resources
+2015-08-27 13:35:57.434 yuefan[17133:623399] [CDVTimer][splashscreen] 12.668014ms
+2015-08-27 13:35:57.434 yuefan[17133:623399] [CDVTimer][keyboard] 0.046015ms
+2015-08-27 13:35:57.434 yuefan[17133:623399] [CDVTimer][TotalPluginStartup] 12.948990ms
+2015-08-27 13:35:57.484 yuefan[17133:623399] Resetting plugins due to page load.
+2015-08-27 13:35:57.618 yuefan[17133:623399] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/434221A2-71B1-4A32-A654-15C0DA39AECD/yuefan.app/www/index.html
+2015-08-27 13:36:20.088 yuefan[17182:624143] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 13:36:20.089 yuefan[17182:624143] Multi-tasking -> Device: YES, App: YES
+2015-08-27 13:36:20.090 yuefan[17182:624143] Unlimited access to network resources
+2015-08-27 13:36:20.168 yuefan[17182:624143] [CDVTimer][splashscreen] 12.781978ms
+2015-08-27 13:36:20.168 yuefan[17182:624143] [CDVTimer][keyboard] 0.047028ms
+2015-08-27 13:36:20.169 yuefan[17182:624143] [CDVTimer][TotalPluginStartup] 13.064981ms
+2015-08-27 13:36:20.225 yuefan[17182:624143] Resetting plugins due to page load.
+2015-08-27 13:36:20.361 yuefan[17182:624143] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/F5F1A8CE-EEB9-49CC-A509-83417E2C500D/yuefan.app/www/index.html
+2015-08-27 14:02:12.160 yuefan[17768:652497] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:02:12.161 yuefan[17768:652497] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:02:12.162 yuefan[17768:652497] Unlimited access to network resources
+2015-08-27 14:02:12.240 yuefan[17768:652497] [CDVTimer][splashscreen] 14.359951ms
+2015-08-27 14:02:12.240 yuefan[17768:652497] [CDVTimer][keyboard] 0.048995ms
+2015-08-27 14:02:12.240 yuefan[17768:652497] [CDVTimer][TotalPluginStartup] 14.635026ms
+2015-08-27 14:02:12.290 yuefan[17768:652497] Resetting plugins due to page load.
+2015-08-27 14:02:12.426 yuefan[17768:652497] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/9C633658-62B0-4A50-A499-4368EADC9F7F/yuefan.app/www/index.html
+2015-08-27 14:04:54.417 yuefan[17880:655547] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:04:54.417 yuefan[17880:655547] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:04:54.419 yuefan[17880:655547] Unlimited access to network resources
+2015-08-27 14:04:54.499 yuefan[17880:655547] [CDVTimer][splashscreen] 14.762998ms
+2015-08-27 14:04:54.499 yuefan[17880:655547] [CDVTimer][keyboard] 0.047028ms
+2015-08-27 14:04:54.499 yuefan[17880:655547] [CDVTimer][TotalPluginStartup] 15.035987ms
+2015-08-27 14:04:54.549 yuefan[17880:655547] Resetting plugins due to page load.
+2015-08-27 14:04:54.689 yuefan[17880:655547] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/86F6A194-DD17-46FD-A622-37253AF27566/yuefan.app/www/index.html
+2015-08-27 14:06:01.030 yuefan[17955:657180] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:06:01.031 yuefan[17955:657180] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:06:01.033 yuefan[17955:657180] Unlimited access to network resources
+2015-08-27 14:06:01.157 yuefan[17955:657180] [CDVTimer][splashscreen] 18.390954ms
+2015-08-27 14:06:01.158 yuefan[17955:657180] [CDVTimer][keyboard] 0.073016ms
+2015-08-27 14:06:01.158 yuefan[17955:657180] [CDVTimer][TotalPluginStartup] 18.840969ms
+2015-08-27 14:06:01.214 yuefan[17955:657180] Resetting plugins due to page load.
+2015-08-27 14:06:01.350 yuefan[17955:657180] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/8061C32E-870F-4632-B9DF-7A5E86E51D70/yuefan.app/www/index.html
+2015-08-27 14:08:30.567 yuefan[18057:660464] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:08:30.568 yuefan[18057:660464] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:08:30.569 yuefan[18057:660464] Unlimited access to network resources
+2015-08-27 14:08:30.654 yuefan[18057:660464] [CDVTimer][splashscreen] 13.750017ms
+2015-08-27 14:08:30.654 yuefan[18057:660464] [CDVTimer][keyboard] 0.052035ms
+2015-08-27 14:08:30.654 yuefan[18057:660464] [CDVTimer][TotalPluginStartup] 14.046967ms
+2015-08-27 14:08:30.707 yuefan[18057:660464] Resetting plugins due to page load.
+2015-08-27 14:08:30.838 yuefan[18057:660464] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/8E59F4E2-3E51-4816-BBCE-E071F764A94C/yuefan.app/www/index.html
+2015-08-27 14:09:25.196 yuefan[18123:661681] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:09:25.196 yuefan[18123:661681] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:09:25.198 yuefan[18123:661681] Unlimited access to network resources
+2015-08-27 14:09:25.283 yuefan[18123:661681] [CDVTimer][splashscreen] 15.075028ms
+2015-08-27 14:09:25.283 yuefan[18123:661681] [CDVTimer][keyboard] 0.066996ms
+2015-08-27 14:09:25.284 yuefan[18123:661681] [CDVTimer][TotalPluginStartup] 15.394986ms
+2015-08-27 14:09:25.331 yuefan[18123:661681] Resetting plugins due to page load.
+2015-08-27 14:09:25.456 yuefan[18123:661681] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/D7D7708B-D259-4451-B221-A8EEED26146F/yuefan.app/www/index.html
+2015-08-27 14:10:04.258 yuefan[18173:662996] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:10:04.259 yuefan[18173:662996] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:10:04.260 yuefan[18173:662996] Unlimited access to network resources
+2015-08-27 14:10:04.341 yuefan[18173:662996] [CDVTimer][splashscreen] 13.241947ms
+2015-08-27 14:10:04.341 yuefan[18173:662996] [CDVTimer][keyboard] 0.048995ms
+2015-08-27 14:10:04.341 yuefan[18173:662996] [CDVTimer][TotalPluginStartup] 13.529003ms
+2015-08-27 14:10:04.391 yuefan[18173:662996] Resetting plugins due to page load.
+2015-08-27 14:10:04.520 yuefan[18173:662996] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/CDB25E2C-DBE5-4E78-BA22-E51922EFD589/yuefan.app/www/index.html
+2015-08-27 14:10:45.035 yuefan[18239:664248] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:10:45.035 yuefan[18239:664248] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:10:45.038 yuefan[18239:664248] Unlimited access to network resources
+2015-08-27 14:10:45.132 yuefan[18239:664248] [CDVTimer][splashscreen] 16.351998ms
+2015-08-27 14:10:45.132 yuefan[18239:664248] [CDVTimer][keyboard] 0.053048ms
+2015-08-27 14:10:45.132 yuefan[18239:664248] [CDVTimer][TotalPluginStartup] 16.646981ms
+2015-08-27 14:10:45.184 yuefan[18239:664248] Resetting plugins due to page load.
+2015-08-27 14:10:45.313 yuefan[18239:664248] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/EB5E4B7E-3733-4593-8EA0-36C49E1B4726/yuefan.app/www/index.html
+2015-08-27 14:12:38.329 yuefan[18239:668231] Communications error: <OS_xpc_error: <error: 0x2d4a5f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d4a83c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-08-27 14:12:38.332 yuefan[18239:668286] Terminating since there is no system app.
+2015-08-27 14:14:53.579 yuefan[18448:672492] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:14:53.579 yuefan[18448:672492] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:14:53.581 yuefan[18448:672492] Unlimited access to network resources
+2015-08-27 14:14:53.658 yuefan[18448:672492] [CDVTimer][splashscreen] 13.410032ms
+2015-08-27 14:14:53.658 yuefan[18448:672492] [CDVTimer][keyboard] 0.043988ms
+2015-08-27 14:14:53.658 yuefan[18448:672492] [CDVTimer][TotalPluginStartup] 13.673007ms
+2015-08-27 14:14:53.737 yuefan[18448:672492] Resetting plugins due to page load.
+2015-08-27 14:14:53.862 yuefan[18448:672492] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/B4E5621A-53D0-4A9E-BE4F-A3162E13ABFF/yuefan.app/www/index.html
+2015-08-27 14:24:04.535 yuefan[18703:682638] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:24:04.536 yuefan[18703:682638] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:24:04.537 yuefan[18703:682638] Unlimited access to network resources
+2015-08-27 14:24:04.617 yuefan[18703:682638] [CDVTimer][splashscreen] 13.756990ms
+2015-08-27 14:24:04.617 yuefan[18703:682638] [CDVTimer][keyboard] 0.043988ms
+2015-08-27 14:24:04.617 yuefan[18703:682638] [CDVTimer][TotalPluginStartup] 14.017045ms
+2015-08-27 14:24:04.665 yuefan[18703:682638] Resetting plugins due to page load.
+2015-08-27 14:24:04.790 yuefan[18703:682638] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/104B1482-8110-45C4-9500-222FB6F8C2E6/yuefan.app/www/index.html
+2015-08-27 14:26:11.907 yuefan[18703:686740] Terminating since there is no system app.
+2015-08-27 14:27:07.101 yuefan[18948:689913] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:27:07.102 yuefan[18948:689913] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:27:07.104 yuefan[18948:689913] Unlimited access to network resources
+2015-08-27 14:27:07.185 yuefan[18948:689913] [CDVTimer][splashscreen] 14.678001ms
+2015-08-27 14:27:07.185 yuefan[18948:689913] [CDVTimer][keyboard] 0.046015ms
+2015-08-27 14:27:07.185 yuefan[18948:689913] [CDVTimer][TotalPluginStartup] 14.975965ms
+2015-08-27 14:27:07.235 yuefan[18948:689913] Resetting plugins due to page load.
+2015-08-27 14:27:07.356 yuefan[18948:689913] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/7EAA7321-67B1-439C-8010-7C9AD5E7A6DE/yuefan.app/www/index.html
+2015-08-27 14:28:42.266 yuefan[19038:692109] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:28:42.267 yuefan[19038:692109] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:28:42.268 yuefan[19038:692109] Unlimited access to network resources
+2015-08-27 14:28:42.349 yuefan[19038:692109] [CDVTimer][splashscreen] 15.776038ms
+2015-08-27 14:28:42.349 yuefan[19038:692109] [CDVTimer][keyboard] 0.045955ms
+2015-08-27 14:28:42.349 yuefan[19038:692109] [CDVTimer][TotalPluginStartup] 16.050041ms
+2015-08-27 14:28:42.407 yuefan[19038:692109] Resetting plugins due to page load.
+2015-08-27 14:28:42.535 yuefan[19038:692109] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/65096CCD-AAE7-4815-BFBF-490BF04F5861/yuefan.app/www/index.html
+2015-08-27 14:29:19.862 yuefan[19087:693120] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 14:29:19.863 yuefan[19087:693120] Multi-tasking -> Device: YES, App: YES
+2015-08-27 14:29:19.865 yuefan[19087:693120] Unlimited access to network resources
+2015-08-27 14:29:19.947 yuefan[19087:693120] [CDVTimer][splashscreen] 12.399018ms
+2015-08-27 14:29:19.948 yuefan[19087:693120] [CDVTimer][keyboard] 0.045002ms
+2015-08-27 14:29:19.948 yuefan[19087:693120] [CDVTimer][TotalPluginStartup] 12.674034ms
+2015-08-27 14:29:19.996 yuefan[19087:693120] Resetting plugins due to page load.
+2015-08-27 14:29:20.113 yuefan[19087:693120] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/9A4E5E35-136B-4C3F-B902-85E5970E05F2/yuefan.app/www/index.html
+2015-08-27 15:37:56.968 yuefan[19855:733082] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:37:56.969 yuefan[19855:733082] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:37:56.971 yuefan[19855:733082] Unlimited access to network resources
+2015-08-27 15:37:57.051 yuefan[19855:733082] [CDVTimer][splashscreen] 16.183972ms
+2015-08-27 15:37:57.051 yuefan[19855:733082] [CDVTimer][keyboard] 0.046968ms
+2015-08-27 15:37:57.051 yuefan[19855:733082] [CDVTimer][TotalPluginStartup] 16.476989ms
+2015-08-27 15:37:57.105 yuefan[19855:733082] Resetting plugins due to page load.
+2015-08-27 15:37:57.229 yuefan[19855:733082] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/80E25779-3836-4C30-A097-14A5E2292609/yuefan.app/www/index.html
+2015-08-27 15:39:37.958 yuefan[19962:736147] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:39:37.959 yuefan[19962:736147] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:39:37.960 yuefan[19962:736147] Unlimited access to network resources
+2015-08-27 15:39:38.037 yuefan[19962:736147] [CDVTimer][splashscreen] 12.732983ms
+2015-08-27 15:39:38.037 yuefan[19962:736147] [CDVTimer][keyboard] 0.057042ms
+2015-08-27 15:39:38.037 yuefan[19962:736147] [CDVTimer][TotalPluginStartup] 13.062000ms
+2015-08-27 15:39:38.088 yuefan[19962:736147] Resetting plugins due to page load.
+2015-08-27 15:39:38.192 yuefan[19962:736147] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/7E7CBC6B-A989-4C76-8CEC-8507AF150625/yuefan.app/www/index.html
+2015-08-27 15:41:43.828 yuefan[20047:738853] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:41:43.829 yuefan[20047:738853] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:41:43.830 yuefan[20047:738853] Unlimited access to network resources
+2015-08-27 15:41:43.906 yuefan[20047:738853] [CDVTimer][splashscreen] 11.609972ms
+2015-08-27 15:41:43.906 yuefan[20047:738853] [CDVTimer][keyboard] 0.048041ms
+2015-08-27 15:41:43.907 yuefan[20047:738853] [CDVTimer][TotalPluginStartup] 11.878014ms
+2015-08-27 15:41:43.955 yuefan[20047:738853] Resetting plugins due to page load.
+2015-08-27 15:41:44.065 yuefan[20047:738853] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/20EF7B1F-F6BF-4179-8B9B-42FBE73EAC84/yuefan.app/www/index.html
+2015-08-27 15:42:28.285 yuefan[20114:740065] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:42:28.286 yuefan[20114:740065] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:42:28.287 yuefan[20114:740065] Unlimited access to network resources
+2015-08-27 15:42:28.363 yuefan[20114:740065] [CDVTimer][splashscreen] 11.967957ms
+2015-08-27 15:42:28.363 yuefan[20114:740065] [CDVTimer][keyboard] 0.047982ms
+2015-08-27 15:42:28.363 yuefan[20114:740065] [CDVTimer][TotalPluginStartup] 12.252986ms
+2015-08-27 15:42:28.415 yuefan[20114:740065] Resetting plugins due to page load.
+2015-08-27 15:42:28.517 yuefan[20114:740065] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/A37DE350-C369-482F-ADED-82F455E34F03/yuefan.app/www/index.html
+2015-08-27 15:43:52.299 yuefan[20180:743180] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:43:52.300 yuefan[20180:743180] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:43:52.301 yuefan[20180:743180] Unlimited access to network resources
+2015-08-27 15:43:52.385 yuefan[20180:743180] [CDVTimer][splashscreen] 13.226986ms
+2015-08-27 15:43:52.385 yuefan[20180:743180] [CDVTimer][keyboard] 0.045955ms
+2015-08-27 15:43:52.386 yuefan[20180:743180] [CDVTimer][TotalPluginStartup] 13.498962ms
+2015-08-27 15:43:52.434 yuefan[20180:743180] Resetting plugins due to page load.
+2015-08-27 15:43:52.565 yuefan[20180:743180] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/B3B4B6BF-75AF-4641-AA9E-FE0D7A21AA57/yuefan.app/www/index.html
+2015-08-27 15:44:53.419 yuefan[20248:745416] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:44:53.420 yuefan[20248:745416] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:44:53.422 yuefan[20248:745416] Unlimited access to network resources
+2015-08-27 15:44:53.500 yuefan[20248:745416] [CDVTimer][splashscreen] 12.109995ms
+2015-08-27 15:44:53.500 yuefan[20248:745416] [CDVTimer][keyboard] 0.063956ms
+2015-08-27 15:44:53.500 yuefan[20248:745416] [CDVTimer][TotalPluginStartup] 12.422025ms
+2015-08-27 15:44:53.548 yuefan[20248:745416] Resetting plugins due to page load.
+2015-08-27 15:44:53.686 yuefan[20248:745416] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/255B8877-9B1C-433D-A38A-EBE2148F89EC/yuefan.app/www/index.html
+2015-08-27 15:51:29.130 yuefan[20422:753157] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:51:29.131 yuefan[20422:753157] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:51:29.132 yuefan[20422:753157] Unlimited access to network resources
+2015-08-27 15:51:29.212 yuefan[20422:753157] [CDVTimer][splashscreen] 11.946023ms
+2015-08-27 15:51:29.212 yuefan[20422:753157] [CDVTimer][keyboard] 0.051022ms
+2015-08-27 15:51:29.213 yuefan[20422:753157] [CDVTimer][TotalPluginStartup] 12.243986ms
+2015-08-27 15:51:29.267 yuefan[20422:753157] Resetting plugins due to page load.
+2015-08-27 15:51:29.401 yuefan[20422:753157] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/A5AD5B6F-8646-430D-9517-F91350AAAB97/yuefan.app/www/index.html
+2015-08-27 15:53:10.692 yuefan[20507:755566] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:53:10.692 yuefan[20507:755566] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:53:10.694 yuefan[20507:755566] Unlimited access to network resources
+2015-08-27 15:53:10.770 yuefan[20507:755566] [CDVTimer][splashscreen] 11.904001ms
+2015-08-27 15:53:10.770 yuefan[20507:755566] [CDVTimer][keyboard] 0.050008ms
+2015-08-27 15:53:10.770 yuefan[20507:755566] [CDVTimer][TotalPluginStartup] 12.209952ms
+2015-08-27 15:53:10.825 yuefan[20507:755566] Resetting plugins due to page load.
+2015-08-27 15:53:10.951 yuefan[20507:755566] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/B6C6BD3C-F8DB-4E9E-B4F2-43E525FFEE18/yuefan.app/www/index.html
+2015-08-27 15:55:44.770 yuefan[20782:762361] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 15:55:44.771 yuefan[20782:762361] Multi-tasking -> Device: YES, App: YES
+2015-08-27 15:55:44.773 yuefan[20782:762361] Unlimited access to network resources
+2015-08-27 15:55:44.848 yuefan[20782:762361] [CDVTimer][splashscreen] 11.761010ms
+2015-08-27 15:55:44.848 yuefan[20782:762361] [CDVTimer][keyboard] 0.063956ms
+2015-08-27 15:55:44.848 yuefan[20782:762361] [CDVTimer][TotalPluginStartup] 12.072027ms
+2015-08-27 15:55:44.899 yuefan[20782:762361] Resetting plugins due to page load.
+2015-08-27 15:55:45.022 yuefan[20782:762361] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/E864B523-33F0-43EA-B6DF-B8E0090909D5/yuefan.app/www/index.html
+2015-08-27 16:05:41.432 yuefan[21139:780520] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 16:05:41.433 yuefan[21139:780520] Multi-tasking -> Device: YES, App: YES
+2015-08-27 16:05:41.435 yuefan[21139:780520] Unlimited access to network resources
+2015-08-27 16:05:41.515 yuefan[21139:780520] [CDVTimer][splashscreen] 11.862040ms
+2015-08-27 16:05:41.515 yuefan[21139:780520] [CDVTimer][keyboard] 0.051975ms
+2015-08-27 16:05:41.515 yuefan[21139:780520] [CDVTimer][TotalPluginStartup] 12.154996ms
+2015-08-27 16:05:41.648 yuefan[21139:780520] Resetting plugins due to page load.
+2015-08-27 16:05:41.790 yuefan[21139:780520] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/43E8B216-ACFF-4C63-80FD-6AE01B22857A/yuefan.app/www/index.html
+2015-08-27 16:06:46.627 yuefan[21213:781877] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-27 16:06:46.628 yuefan[21213:781877] Multi-tasking -> Device: YES, App: YES
+2015-08-27 16:06:46.630 yuefan[21213:781877] Unlimited access to network resources
+2015-08-27 16:06:46.710 yuefan[21213:781877] [CDVTimer][splashscreen] 15.700996ms
+2015-08-27 16:06:46.710 yuefan[21213:781877] [CDVTimer][keyboard] 0.051022ms
+2015-08-27 16:06:46.710 yuefan[21213:781877] [CDVTimer][TotalPluginStartup] 16.001999ms
+2015-08-27 16:06:46.761 yuefan[21213:781877] Resetting plugins due to page load.
+2015-08-27 16:06:46.891 yuefan[21213:781877] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/06D786D5-7EC2-4C7F-8864-31762E8147D7/yuefan.app/www/index.html
+2015-08-27 16:08:10.143 yuefan[21213:783668] Terminating since there is no system app.
+2015-08-28 13:01:33.281 yuefan[2421:217671] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-28 13:01:33.283 yuefan[2421:217671] Multi-tasking -> Device: YES, App: YES
+2015-08-28 13:01:33.297 yuefan[2421:217671] Unlimited access to network resources
+2015-08-28 13:01:33.696 yuefan[2421:217671] [CDVTimer][splashscreen] 129.549980ms
+2015-08-28 13:01:33.696 yuefan[2421:217671] [CDVTimer][keyboard] 0.051975ms
+2015-08-28 13:01:33.696 yuefan[2421:217671] [CDVTimer][TotalPluginStartup] 129.834950ms
+2015-08-28 13:01:33.806 yuefan[2421:217671] Resetting plugins due to page load.
+2015-08-28 13:01:34.028 yuefan[2421:217671] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/0BA60BA8-F86A-4370-875D-79D79C5ED170/yuefan.app/www/index.html
+2015-08-28 13:01:34.087 yuefan[2421:217671] !23
+2015-08-28 13:33:40.856 yuefan[2810:247355] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-28 13:33:40.857 yuefan[2810:247355] Multi-tasking -> Device: YES, App: YES
+2015-08-28 13:33:40.858 yuefan[2810:247355] Unlimited access to network resources
+2015-08-28 13:33:40.931 yuefan[2810:247355] [CDVTimer][splashscreen] 11.243999ms
+2015-08-28 13:33:40.931 yuefan[2810:247355] [CDVTimer][keyboard] 0.046015ms
+2015-08-28 13:33:40.932 yuefan[2810:247355] [CDVTimer][TotalPluginStartup] 11.519969ms
+2015-08-28 13:33:41.003 yuefan[2810:247355] Resetting plugins due to page load.
+2015-08-28 13:33:41.126 yuefan[2810:247355] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/C609D92D-8401-4083-BB7A-FCC5B2909614/yuefan.app/www/index.html
+2015-08-30 16:57:06.106 yuefan[31549:1285776] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-30 16:57:06.107 yuefan[31549:1285776] Multi-tasking -> Device: YES, App: YES
+2015-08-30 16:57:06.119 yuefan[31549:1285776] Unlimited access to network resources
+2015-08-30 16:57:06.651 yuefan[31549:1285776] [CDVTimer][splashscreen] 172.209024ms
+2015-08-30 16:57:06.651 yuefan[31549:1285776] [CDVTimer][keyboard] 0.063002ms
+2015-08-30 16:57:06.651 yuefan[31549:1285776] [CDVTimer][TotalPluginStartup] 172.569990ms
+2015-08-30 16:57:06.777 yuefan[31549:1285776] Resetting plugins due to page load.
+2015-08-30 16:57:07.026 yuefan[31549:1285776] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/5E4E27FD-3677-4FC0-A191-D2F658F11271/yuefan.app/www/index.html
+2015-08-31 12:15:58.837 yuefan[37518:1497377] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 12:15:58.839 yuefan[37518:1497377] Multi-tasking -> Device: YES, App: YES
+2015-08-31 12:15:58.851 yuefan[37518:1497377] Unlimited access to network resources
+2015-08-31 12:15:59.278 yuefan[37518:1497377] [CDVTimer][splashscreen] 138.085008ms
+2015-08-31 12:15:59.278 yuefan[37518:1497377] [CDVTimer][keyboard] 0.054002ms
+2015-08-31 12:15:59.278 yuefan[37518:1497377] [CDVTimer][TotalPluginStartup] 138.377964ms
+2015-08-31 12:15:59.392 yuefan[37518:1497377] Resetting plugins due to page load.
+2015-08-31 12:15:59.626 yuefan[37518:1497377] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/807F71BD-939A-48DC-B979-B54225E0ABE6/yuefan.app/www/index.html
+2015-08-31 12:16:57.939 yuefan[37644:1499488] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 12:16:57.940 yuefan[37644:1499488] Multi-tasking -> Device: YES, App: YES
+2015-08-31 12:16:57.941 yuefan[37644:1499488] Unlimited access to network resources
+2015-08-31 12:16:58.064 yuefan[37644:1499488] [CDVTimer][splashscreen] 16.822040ms
+2015-08-31 12:16:58.065 yuefan[37644:1499488] [CDVTimer][keyboard] 0.074029ms
+2015-08-31 12:16:58.065 yuefan[37644:1499488] [CDVTimer][TotalPluginStartup] 17.278969ms
+2015-08-31 12:16:58.134 yuefan[37644:1499488] Resetting plugins due to page load.
+2015-08-31 12:16:58.307 yuefan[37644:1499488] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/F01A71CF-F0ED-4624-B6B2-5C4075962DDE/yuefan.app/www/index.html
+2015-08-31 13:21:22.294 yuefan[38757:1538513] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 13:21:22.294 yuefan[38757:1538513] Multi-tasking -> Device: YES, App: YES
+2015-08-31 13:21:22.296 yuefan[38757:1538513] Unlimited access to network resources
+2015-08-31 13:21:22.376 yuefan[38757:1538513] [CDVTimer][splashscreen] 17.373979ms
+2015-08-31 13:21:22.376 yuefan[38757:1538513] [CDVTimer][keyboard] 0.068009ms
+2015-08-31 13:21:22.377 yuefan[38757:1538513] [CDVTimer][TotalPluginStartup] 17.700970ms
+2015-08-31 13:21:22.431 yuefan[38757:1538513] Resetting plugins due to page load.
+2015-08-31 13:21:22.555 yuefan[38757:1538513] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/089A16F8-812E-4072-A0C1-B9C92B45FBE6/yuefan.app/www/index.html
+2015-08-31 14:40:55.753 yuefan[40817:1635425] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 14:40:55.753 yuefan[40817:1635425] Multi-tasking -> Device: YES, App: YES
+2015-08-31 14:40:55.755 yuefan[40817:1635425] Unlimited access to network resources
+2015-08-31 14:40:55.839 yuefan[40817:1635425] [CDVTimer][splashscreen] 17.569005ms
+2015-08-31 14:40:55.839 yuefan[40817:1635425] [CDVTimer][keyboard] 0.068009ms
+2015-08-31 14:40:55.839 yuefan[40817:1635425] [CDVTimer][TotalPluginStartup] 17.976999ms
+2015-08-31 14:40:55.894 yuefan[40817:1635425] Resetting plugins due to page load.
+2015-08-31 14:40:56.009 yuefan[40817:1635425] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/724C0303-5972-4CF9-8559-7FA20C4C7224/yuefan.app/www/index.html
+2015-08-31 14:41:07.121 yuefan[40869:1635896] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 14:41:07.122 yuefan[40869:1635896] Multi-tasking -> Device: YES, App: YES
+2015-08-31 14:41:07.123 yuefan[40869:1635896] Unlimited access to network resources
+2015-08-31 14:41:07.199 yuefan[40869:1635896] [CDVTimer][splashscreen] 11.947036ms
+2015-08-31 14:41:07.199 yuefan[40869:1635896] [CDVTimer][keyboard] 0.043988ms
+2015-08-31 14:41:07.199 yuefan[40869:1635896] [CDVTimer][TotalPluginStartup] 12.214005ms
+2015-08-31 14:41:07.250 yuefan[40869:1635896] Resetting plugins due to page load.
+2015-08-31 14:41:07.436 yuefan[40869:1635896] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/CA2A2F5B-D2FE-4C74-99EC-8BAB5FE23E2D/yuefan.app/www/index.html
+2015-08-31 14:41:49.870 yuefan[40938:1637099] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 14:41:49.870 yuefan[40938:1637099] Multi-tasking -> Device: YES, App: YES
+2015-08-31 14:41:49.872 yuefan[40938:1637099] Unlimited access to network resources
+2015-08-31 14:41:49.947 yuefan[40938:1637099] [CDVTimer][splashscreen] 11.411011ms
+2015-08-31 14:41:49.947 yuefan[40938:1637099] [CDVTimer][keyboard] 0.045002ms
+2015-08-31 14:41:49.947 yuefan[40938:1637099] [CDVTimer][TotalPluginStartup] 11.691988ms
+2015-08-31 14:41:50.001 yuefan[40938:1637099] Resetting plugins due to page load.
+2015-08-31 14:41:50.130 yuefan[40938:1637099] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/B679CA86-C558-4E02-BAEC-F076E03EC71A/yuefan.app/www/index.html
+2015-08-31 14:41:54.598 yuefan[40938:1637099] friend's name is [object Object]
+2015-08-31 16:06:28.821 yuefan[42673:1719566] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 16:06:28.822 yuefan[42673:1719566] Multi-tasking -> Device: YES, App: YES
+2015-08-31 16:06:28.823 yuefan[42673:1719566] Unlimited access to network resources
+2015-08-31 16:06:28.931 yuefan[42673:1719566] [CDVTimer][splashscreen] 36.733031ms
+2015-08-31 16:06:28.931 yuefan[42673:1719566] [CDVTimer][keyboard] 0.072002ms
+2015-08-31 16:06:28.931 yuefan[42673:1719566] [CDVTimer][TotalPluginStartup] 37.075996ms
+2015-08-31 16:06:29.001 yuefan[42673:1719566] Resetting plugins due to page load.
+2015-08-31 16:06:29.145 yuefan[42673:1719566] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/6E18FA07-60CE-49CE-8826-78E8F649E9E1/yuefan.app/www/index.html
+2015-08-31 16:06:45.427 yuefan[42673:1719566] user 's objectId is undefined
+2015-08-31 16:06:45.427 yuefan[42673:1719566] user 's objectId is undefined
+2015-08-31 16:07:03.364 yuefan[42673:1719566] data is [object Object],[object Object]
+2015-08-31 16:07:03.364 yuefan[42673:1719566] selected ? N
+2015-08-31 16:07:03.364 yuefan[42673:1719566] selected ? N
+2015-08-31 16:07:10.851 yuefan[42673:1719566] user 's objectId is undefined
+2015-08-31 16:07:10.851 yuefan[42673:1719566] user 's objectId is undefined
+2015-08-31 16:07:56.939 yuefan[42673:1721093] Communications error: <OS_xpc_error: <error: 0x2d825f4> { count = 1, contents =
+	"XPCErrorDescription" => <string: 0x2d8283c> { length = 22, contents = "Connection interrupted" }
+}>
+2015-08-31 16:07:56.940 yuefan[42673:1721093] Terminating since there is no system app.
+2015-08-31 16:08:09.785 yuefan[42810:1722267] Apache Cordova native platform version 3.9.1 is starting.
+2015-08-31 16:08:09.786 yuefan[42810:1722267] Multi-tasking -> Device: YES, App: YES
+2015-08-31 16:08:09.787 yuefan[42810:1722267] Unlimited access to network resources
+2015-08-31 16:08:09.881 yuefan[42810:1722267] [CDVTimer][splashscreen] 13.503015ms
+2015-08-31 16:08:09.881 yuefan[42810:1722267] [CDVTimer][keyboard] 0.082970ms
+2015-08-31 16:08:09.881 yuefan[42810:1722267] [CDVTimer][TotalPluginStartup] 13.979018ms
+2015-08-31 16:08:09.942 yuefan[42810:1722267] Resetting plugins due to page load.
+2015-08-31 16:08:10.092 yuefan[42810:1722267] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/A30A7304-0B3E-4E22-BC3B-31DEAA2F12F0/yuefan.app/www/index.html
+2015-08-31 16:08:14.450 yuefan[42810:1722267] user 's objectId is undefined
+2015-08-31 16:08:14.450 yuefan[42810:1722267] user 's objectId is undefined
+2015-09-01 15:40:34.845 yuefan[56594:2219565] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 15:40:34.847 yuefan[56594:2219565] Multi-tasking -> Device: YES, App: YES
+2015-09-01 15:40:34.859 yuefan[56594:2219565] Unlimited access to network resources
+2015-09-01 15:40:35.369 yuefan[56594:2219565] [CDVTimer][splashscreen] 173.271000ms
+2015-09-01 15:40:35.369 yuefan[56594:2219565] [CDVTimer][keyboard] 0.054002ms
+2015-09-01 15:40:35.369 yuefan[56594:2219565] [CDVTimer][TotalPluginStartup] 173.569024ms
+2015-09-01 15:40:35.488 yuefan[56594:2219565] Resetting plugins due to page load.
+2015-09-01 15:40:35.720 yuefan[56594:2219565] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/197EE39B-6494-4EBA-A925-3B075BE5AA48/yuefan.app/www/index.html
+2015-09-01 15:42:57.111 yuefan[56691:2222583] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 15:42:57.112 yuefan[56691:2222583] Multi-tasking -> Device: YES, App: YES
+2015-09-01 15:42:57.113 yuefan[56691:2222583] Unlimited access to network resources
+2015-09-01 15:42:57.189 yuefan[56691:2222583] [CDVTimer][splashscreen] 11.725008ms
+2015-09-01 15:42:57.189 yuefan[56691:2222583] [CDVTimer][keyboard] 0.043988ms
+2015-09-01 15:42:57.189 yuefan[56691:2222583] [CDVTimer][TotalPluginStartup] 11.994004ms
+2015-09-01 15:42:57.239 yuefan[56691:2222583] Resetting plugins due to page load.
+2015-09-01 15:42:57.366 yuefan[56691:2222583] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/DA8E57F8-C408-4F4E-821D-17C9F86BCA64/yuefan.app/www/index.html
+2015-09-01 15:43:38.851 yuefan[56760:2223371] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 15:43:38.851 yuefan[56760:2223371] Multi-tasking -> Device: YES, App: YES
+2015-09-01 15:43:38.853 yuefan[56760:2223371] Unlimited access to network resources
+2015-09-01 15:43:38.929 yuefan[56760:2223371] [CDVTimer][splashscreen] 12.705028ms
+2015-09-01 15:43:38.929 yuefan[56760:2223371] [CDVTimer][keyboard] 0.045002ms
+2015-09-01 15:43:38.929 yuefan[56760:2223371] [CDVTimer][TotalPluginStartup] 12.974024ms
+2015-09-01 15:43:38.979 yuefan[56760:2223371] Resetting plugins due to page load.
+2015-09-01 15:43:39.106 yuefan[56760:2223371] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/88457154-7668-4889-8BBC-083677E6B729/yuefan.app/www/index.html
+2015-09-01 15:58:35.710 yuefan[57243:2235582] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 15:58:35.711 yuefan[57243:2235582] Multi-tasking -> Device: YES, App: YES
+2015-09-01 15:58:35.712 yuefan[57243:2235582] Unlimited access to network resources
+2015-09-01 15:58:35.804 yuefan[57243:2235582] [CDVTimer][splashscreen] 20.526052ms
+2015-09-01 15:58:35.804 yuefan[57243:2235582] [CDVTimer][keyboard] 0.059009ms
+2015-09-01 15:58:35.804 yuefan[57243:2235582] [CDVTimer][TotalPluginStartup] 20.846963ms
+2015-09-01 15:58:35.852 yuefan[57243:2235582] Resetting plugins due to page load.
+2015-09-01 15:58:35.991 yuefan[57243:2235582] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/52D586F2-7537-48A0-8A6B-656192860C91/yuefan.app/www/index.html
+2015-09-01 15:58:54.960 yuefan[57243:2235582] data is [object Object],[object Object]
+2015-09-01 15:58:54.960 yuefan[57243:2235582] selected ? Y
+2015-09-01 15:58:54.961 yuefan[57243:2235582] selected ? Y
+2015-09-01 15:58:59.921 yuefan[57243:2235582] data is [object Object],[object Object]
+2015-09-01 15:58:59.922 yuefan[57243:2235582] selected ? N
+2015-09-01 15:58:59.922 yuefan[57243:2235582] selected ? N
+2015-09-01 16:05:10.903 yuefan[57441:2240039] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 16:05:10.904 yuefan[57441:2240039] Multi-tasking -> Device: YES, App: YES
+2015-09-01 16:05:10.906 yuefan[57441:2240039] Unlimited access to network resources
+2015-09-01 16:05:11.012 yuefan[57441:2240039] [CDVTimer][splashscreen] 17.372012ms
+2015-09-01 16:05:11.012 yuefan[57441:2240039] [CDVTimer][keyboard] 0.046015ms
+2015-09-01 16:05:11.012 yuefan[57441:2240039] [CDVTimer][TotalPluginStartup] 17.646968ms
+2015-09-01 16:05:11.065 yuefan[57441:2240039] Resetting plugins due to page load.
+2015-09-01 16:05:11.195 yuefan[57441:2240039] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/0741833F-8732-4294-9E42-E4B9F2A485A8/yuefan.app/www/index.html
+2015-09-01 16:05:24.383 yuefan[57441:2240039] data is [object Object],[object Object]
+2015-09-01 16:05:24.383 yuefan[57441:2240039] selected ? N
+2015-09-01 16:05:24.383 yuefan[57441:2240039] selected ? Y
+2015-09-01 16:06:34.931 yuefan[57513:2241377] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-01 16:06:34.932 yuefan[57513:2241377] Multi-tasking -> Device: YES, App: YES
+2015-09-01 16:06:34.933 yuefan[57513:2241377] Unlimited access to network resources
+2015-09-01 16:06:35.011 yuefan[57513:2241377] [CDVTimer][splashscreen] 12.932956ms
+2015-09-01 16:06:35.011 yuefan[57513:2241377] [CDVTimer][keyboard] 0.048995ms
+2015-09-01 16:06:35.011 yuefan[57513:2241377] [CDVTimer][TotalPluginStartup] 13.209999ms
+2015-09-01 16:06:35.061 yuefan[57513:2241377] Resetting plugins due to page load.
+2015-09-01 16:06:35.202 yuefan[57513:2241377] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/79742D86-CC9F-417F-BDC0-175CD7538443/yuefan.app/www/index.html
+2015-09-01 16:06:43.943 yuefan[57513:2241377] data is [object Object],[object Object]
+2015-09-01 16:06:43.943 yuefan[57513:2241377] selected ? N
+2015-09-01 16:06:43.943 yuefan[57513:2241377] selected ? Y
+2015-09-08 10:01:40.026 yuefan[27450:1229104] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-08 10:01:40.027 yuefan[27450:1229104] Multi-tasking -> Device: YES, App: YES
+2015-09-08 10:01:40.040 yuefan[27450:1229104] Unlimited access to network resources
+2015-09-08 10:01:40.454 yuefan[27450:1229104] [CDVTimer][splashscreen] 131.729960ms
+2015-09-08 10:01:40.454 yuefan[27450:1229104] [CDVTimer][keyboard] 0.050962ms
+2015-09-08 10:01:40.454 yuefan[27450:1229104] [CDVTimer][TotalPluginStartup] 132.017016ms
+2015-09-08 10:01:40.566 yuefan[27450:1229104] Resetting plugins due to page load.
+2015-09-08 10:01:40.798 yuefan[27450:1229104] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/B49193C3-1598-47C2-9A9F-F6CFB64BE4C5/yuefan.app/www/index.html
+2015-09-14 13:56:16.886 yuefan[91110:3158498] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 13:56:16.887 yuefan[91110:3158498] Multi-tasking -> Device: YES, App: YES
+2015-09-14 13:56:16.901 yuefan[91110:3158498] Unlimited access to network resources
+2015-09-14 13:56:17.359 yuefan[91110:3158498] [CDVTimer][splashscreen] 159.177005ms
+2015-09-14 13:56:17.359 yuefan[91110:3158498] [CDVTimer][keyboard] 0.074983ms
+2015-09-14 13:56:17.359 yuefan[91110:3158498] [CDVTimer][TotalPluginStartup] 159.586012ms
+2015-09-14 13:56:17.490 yuefan[91110:3158498] Resetting plugins due to page load.
+2015-09-14 13:56:17.739 yuefan[91110:3158498] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/6F011DA9-5403-41E7-8ADB-458F95644B5E/yuefan.app/www/index.html
+2015-09-14 13:56:40.854 yuefan[91110:3158498] invitedFriendList is undefined
+2015-09-14 14:26:18.793 yuefan[91811:3184628] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 14:26:18.793 yuefan[91811:3184628] Multi-tasking -> Device: YES, App: YES
+2015-09-14 14:26:18.795 yuefan[91811:3184628] Unlimited access to network resources
+2015-09-14 14:26:18.875 yuefan[91811:3184628] [CDVTimer][splashscreen] 16.924024ms
+2015-09-14 14:26:18.875 yuefan[91811:3184628] [CDVTimer][keyboard] 0.048995ms
+2015-09-14 14:26:18.875 yuefan[91811:3184628] [CDVTimer][TotalPluginStartup] 17.233014ms
+2015-09-14 14:26:18.928 yuefan[91811:3184628] Resetting plugins due to page load.
+2015-09-14 14:26:19.057 yuefan[91811:3184628] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/E151D285-31FD-48C1-8391-62D4F15CE0C7/yuefan.app/www/index.html
+2015-09-14 14:26:24.022 yuefan[91811:3184638] CFNetwork SSLHandshake failed (-9806)
+2015-09-14 14:26:24.197 yuefan[91811:3184638] CFNetwork SSLHandshake failed (-9802)
+2015-09-14 14:26:24.357 yuefan[91811:3184638] CFNetwork SSLHandshake failed (-9824)
+2015-09-14 14:26:24.357 yuefan[91811:3184659] NSURLConnection/CFURLConnection HTTP load failed (kCFStreamErrorDomainSSL, -9824)
+2015-09-14 14:26:24.382 yuefan[91811:3184628] {"code":100,"message":"XMLHttpRequest failed: {\"onabort\":null,\"onerror\":null,\"onload\":null,\"onloadend\":null,\"onloadstart\":null,\"onprogress\":null,\"ontimeout\":null,\"timeout\":0,\"readyState\":4,\"withCredentials\":false,\"upload\":{\"onabort\":null,\"onerror\":null,\"onload\":null,\"onloadend\":null,\"onloadstart\":null,\"onprogress\":null},\"responseText\":\"\",\"responseXML\":null,\"responseType\":\"\",\"response\":\"\",\"status\":0,\"statusText\":\"\"}"}
+2015-09-14 14:35:40.836 yuefan[92111:3197220] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 14:35:40.837 yuefan[92111:3197220] Multi-tasking -> Device: YES, App: YES
+2015-09-14 14:35:40.838 yuefan[92111:3197220] Unlimited access to network resources
+2015-09-14 14:35:40.920 yuefan[92111:3197220] [CDVTimer][splashscreen] 18.570006ms
+2015-09-14 14:35:40.921 yuefan[92111:3197220] [CDVTimer][keyboard] 0.056028ms
+2015-09-14 14:35:40.921 yuefan[92111:3197220] [CDVTimer][TotalPluginStartup] 18.899024ms
+2015-09-14 14:35:40.967 yuefan[92111:3197220] Resetting plugins due to page load.
+2015-09-14 14:35:41.096 yuefan[92111:3197220] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/A0F97E30-AAD9-4A3F-901D-874B6B2A3D1C/yuefan.app/www/index.html
+2015-09-14 14:38:07.151 yuefan[92111:3202395] Terminating since there is no system app.
+2015-09-14 15:11:18.163 yuefan[1443:37259] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 15:11:18.165 yuefan[1443:37259] Multi-tasking -> Device: YES, App: YES
+2015-09-14 15:11:18.176 yuefan[1443:37259] Unlimited access to network resources
+2015-09-14 15:11:18.568 yuefan[1443:37259] [CDVTimer][splashscreen] 123.386025ms
+2015-09-14 15:11:18.569 yuefan[1443:37259] [CDVTimer][keyboard] 0.051975ms
+2015-09-14 15:11:18.569 yuefan[1443:37259] [CDVTimer][TotalPluginStartup] 123.682022ms
+2015-09-14 15:11:18.669 yuefan[1443:37259] Resetting plugins due to page load.
+2015-09-14 15:11:18.886 yuefan[1443:37259] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/FD59E75E-D3BE-46C3-9280-688C4DC59A18/yuefan.app/www/index.html
+2015-09-14 15:11:24.432 yuefan[1443:37259] 123
+2015-09-14 15:11:27.082 yuefan[1443:37259] [{"SELECTED":"Y","name":{"objectId":"fmbJNNPM8e"},"$$hashKey":"object:10"},{"SELECTED":"Y","name":{"objectId":"BknywG5tez"},"$$hashKey":"object:11"}]
+2015-09-14 15:11:29.038 yuefan[1443:37259] 123
+2015-09-14 15:11:43.240 yuefan[1443:37259] []
+2015-09-14 15:11:45.365 yuefan[1443:37259] 123
+2015-09-14 15:11:46.152 yuefan[1443:37259] []
+2015-09-14 15:11:47.441 yuefan[1443:37259] 123
+2015-09-14 15:11:48.345 yuefan[1443:37259] []
+2015-09-14 15:12:01.883 yuefan[1571:39723] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 15:12:01.884 yuefan[1571:39723] Multi-tasking -> Device: YES, App: YES
+2015-09-14 15:12:01.885 yuefan[1571:39723] Unlimited access to network resources
+2015-09-14 15:12:01.961 yuefan[1571:39723] [CDVTimer][splashscreen] 11.450052ms
+2015-09-14 15:12:01.961 yuefan[1571:39723] [CDVTimer][keyboard] 0.044942ms
+2015-09-14 15:12:01.961 yuefan[1571:39723] [CDVTimer][TotalPluginStartup] 11.717021ms
+2015-09-14 15:12:02.009 yuefan[1571:39723] Resetting plugins due to page load.
+2015-09-14 15:12:02.141 yuefan[1571:39723] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/BABFD479-0C3B-487B-8F03-6AB88E5A579E/yuefan.app/www/index.html
+2015-09-14 15:18:00.369 yuefan[1759:49204] Apache Cordova native platform version 3.9.1 is starting.
+2015-09-14 15:18:00.370 yuefan[1759:49204] Multi-tasking -> Device: YES, App: YES
+2015-09-14 15:18:00.371 yuefan[1759:49204] Unlimited access to network resources
+2015-09-14 15:18:00.447 yuefan[1759:49204] [CDVTimer][splashscreen] 12.206972ms
+2015-09-14 15:18:00.447 yuefan[1759:49204] [CDVTimer][keyboard] 0.048995ms
+2015-09-14 15:18:00.447 yuefan[1759:49204] [CDVTimer][TotalPluginStartup] 12.485027ms
+2015-09-14 15:18:00.499 yuefan[1759:49204] Resetting plugins due to page load.
+2015-09-14 15:18:00.622 yuefan[1759:49204] Finished load of: file:///Users/wxyForJob/Library/Developer/CoreSimulator/Devices/CDCE5FF4-298B-47EF-8298-859BA7CAF97C/data/Containers/Bundle/Application/6555D92B-52A6-48B8-A889-B702785DD6B5/yuefan.app/www/index.html
+2015-09-14 15:18:08.272 yuefan[1759:49204] [{"SELECTED":"Y","name":{"objectId":"fmbJNNPM8e"},"$$hashKey":"object:10"},{"SELECTED":"Y","name":{"objectId":"BknywG5tez"},"$$hashKey":"object:11"}]
+2015-09-14 15:20:27.705 yuefan[1759:49204] []
+2015-09-14 15:20:46.413 yuefan[1759:49204] [{"SELECTED":"Y","name":{"objectId":"fmbJNNPM8e"},"$$hashKey":"object:28"},{"SELECTED":"Y","name":{"objectId":"BknywG5tez"},"$$hashKey":"object:29"}]
